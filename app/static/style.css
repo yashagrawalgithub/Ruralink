@@ -1,0 +1,269 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body and Background */
+body {
+    background-color: #f3f4f6;
+    background-image: url("./bg_image.jpg"); /* Replace this with an actual texture image path */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    color: #333;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    animation: fadeBackground 4s infinite;
+}
+
+/* Navbar Styling */
+nav {
+    background-color: #6cade9; /* Dark Coral */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    animation: slideIn 0.8s ease-out;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 1.5rem;
+    font-size: 1.1rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffe0e0;
+    transform: scale(1.1);
+}
+
+/* Main Content */
+.content {
+    padding-top: 6rem; /* Space for the fixed navbar */
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-out;
+}
+
+/* Heading and Text Styling */
+h1, h2, h3 {
+    color: #2b2ef2;
+    margin-bottom: 1rem;
+    animation: popIn 1.2s ease;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 0.7rem 1.4rem;
+    background-color: #b5d1ec;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2571b8;
+    transform: translateY(-2px);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeBackground {
+    0%, 100% { background-color: #f3f4f6; }
+    50% { background-color: #ebedef; }
+}
+
+@keyframes slideIn {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes popIn {
+    0% { transform: scale(0.8); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 0.5rem 0;
+        font-size: 1rem;
+    }
+
+    .content {
+        padding: 1rem;
+    }
+}
+/* Footer Styling */
+/* Footer Styling */
+footer {
+    background-color: #6cade9; /* Dark Coral */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1);
+    animation: slideUp 1s ease-out;
+}
+
+/* Footer Text */
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    animation: fadeIn 1s ease-in;
+}
+
+footer p:hover {
+    color: #ffe0e0;
+    transition: color 0.3s ease;
+}
+
+/* Animation: Slide Up */
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Center Login Box */
+form {
+    max-width: 400px;
+    margin: 100px auto; /* Centers the box on the page */
+    padding: 20px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6); /* Subtle gradient for the background */
+    border-radius: 12px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1), 0px -4px 5px rgba(255, 255, 255, 0.5); /* Soft shadow effect */
+    text-align: center;
+    animation: fadeInBox 1s ease-in-out;
+}
+
+/* Form Label Styling */
+form label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+/* Input Fields */
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+form input[type="password"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+form input[type="password"]:focus {
+    box-shadow: 0px 0px 10px rgba(255, 111, 97, 0.5); /* Coral glow on focus */
+}
+
+/* Submit Button */
+form button {
+    background-color: #3218b8; 
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background-color: #5055b8;
+    transform: scale(1.05);
+}
+
+/* Login Box Heading */
+h2 {
+    color: #FF6F61;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    animation: fadeInText 1s ease;
+}
+
+/* Animation */
+@keyframes fadeInBox {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInText {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

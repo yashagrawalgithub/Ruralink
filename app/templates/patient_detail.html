@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Patient Detail</title>
+        <link rel="stylesheet" href="../static/patinet_details.css">
+    </head>
+    
+<body id="patient-detail-page">
+    <h1 class="page-title">Patient Details</h1>
+
+    <!-- Display Profile Picture -->
+    <div id="profile-picture-section">
+        {% if profile_pic %}
+            <img id="profile-pic" src="data:image/png;base64,{{ profile_pic }}" alt="Profile Picture">
+        {% else %}
+            <p class="no-picture">No profile picture available</p>
+        {% endif %}
+    </div>
+    
+
+    {% if data %}
+    <table id="patient-table" class="details-table">
+        <thead>
+            <tr>
+                <th>Patient ID</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Employer Category</th>
+                <th>Diabetic</th>
+                <th>Over_weight</th>
+                <th>Blood_Pressure</th>
+                <th>Smoker</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ data['Patient_ID'] }}</td>
+                <td>{{ data['Age'] }}</td>
+                <td>{{ data['Gender'] }}</td>
+                <td>{{ data['Employer_Category'] }}</td>
+                <td>{{ data['Diabetic'] }}</td>
+                <td>{{ data['Over_Weight'] }}</td>
+                <td>{{ data['Blood_Pressure'] }}</td>
+                <td>{{ data['Smoker'] }}</td>
+            </tr>
+        </tbody>
+    </table>
+    {% else %}
+        <p id="no-data-message">No patient data found for the given ID.</p>
+    {% endif %}
+
+    
+    <div id="prescription-section">
+        <h3 class="section-title">Prescription</h3>
+        <p id="prescription-text">{{ prescription }}</p>
+
+        {% if role == 'Senior' %}
+        <h3 class="section-title">Update Prescription</h3>
+        <form id="update-prescription-form" action="{{ url_for('update_prescription') }}" method="POST">
+            <input type="hidden" name="patient_id" value="{{ data['Patient_ID'] }}">
+            <textarea id="prescription-input" name="prescription" rows="4" cols="50">{{ prescription }}</textarea><br><br>
+            <input id="save-prescription-button" type="submit" value="Save Prescription">
+        </form>
+        {% else %}
+        <p class="update-restricted-message">*Only senior users can update the prescription.</p>
+        {% endif %}
+    </div>
+
+    <br><br>
+    <a id="logout-link" href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>

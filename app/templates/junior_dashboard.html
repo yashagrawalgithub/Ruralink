@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior Dashboard</title>
+    <link rel="stylesheet" href="../static/junior_dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Junior Dashboard</h2>
+        </header>
+
+        <section class="form-section">
+            <form action="/patient_detail" method="POST">
+                <label for="patient_id">Patient ID:</label>
+                <input type="text" id="patient_id" name="patient_id" placeholder="Enter Patient ID" required>
+                <button type="submit" class="btn">Fetch Details</button>
+            </form>
+        </section>
+
+        <section class="logout-section">
+            <a href="/logout" class="btn logout-btn">Logout</a>
+        </section>
+    </div>
+</body>
+</html>

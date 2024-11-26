@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}My Web App{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<!-- Navigation Tabs -->
+<nav>
+    <a href="{{ url_for('home') }}">Home</a>
+    <a href="{{ url_for('login') }}">Login</a>
+    <a href="{{ url_for('about') }}">About Us</a>
+</nav>
+
+<!-- Main Content -->
+<div class="content">
+    {% block content %}{% endblock %}
+</div>
+<footer>
+    <p>Copyright © Ruralink 2024</p>
+</footer>
+
+</body>
+</html>

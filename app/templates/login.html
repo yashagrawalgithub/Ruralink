@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<h2>Login</h2>
+<form action="/login" method="POST">
+    <label for="role">Role:</label>
+    <input type="radio" name="role" value="Junior" checked> Junior
+    <input type="radio" name="role" value="Senior"> Senior
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" required>
+    <br>
+    <button type="submit">Login</button>
+</form>
+{% endblock %}

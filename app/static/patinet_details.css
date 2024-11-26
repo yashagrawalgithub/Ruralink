@@ -1,0 +1,213 @@
+/* General Styling */
+body {
+    background-color: #eef2f3; /* Soft Blue-Grey Background */
+    background-image: linear-gradient(to bottom right, #cce7ff, #eef2f3);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Page Title */
+.page-title {
+    font-size: 2.5rem;
+    color: #007BFF; /* Blue Title */
+    text-align: center;
+    margin-bottom: 20px;
+    animation: fadeIn 1.2s ease;
+}
+
+/* Patient Details Layout */
+#details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 20px;
+    animation: fadeIn 1s ease;
+}
+
+/* Patient Details Table */
+#patient-table {
+    width: 65%; /* Adjust to occupy left space */
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: slideIn 0.8s ease;
+}
+
+#patient-table th {
+    background-color: #007BFF; /* Blue Header */
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#patient-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 0.95rem;
+}
+
+/* Profile Picture Section */
+#profile-picture-section {
+    width: 30%; /* Adjust width to fit right space */
+    text-align: center;
+    animation: slideInRight 1.2s ease;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    border: 4px solid #007BFF;
+    max-width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#profile-pic:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Prescription Section */
+#prescription-section {
+    margin-top: 20px;
+    width: 90%;
+    animation: fadeIn 1s ease;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    color: #0056b3; /* Darker Blue */
+    margin-bottom: 10px;
+}
+
+#prescription-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+}
+
+/* Update Prescription Form */
+#update-prescription-form {
+    margin-top: 20px;
+    width: 90%;
+    animation: slideInLeft 1.2s ease;
+}
+
+#prescription-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background-color: #f8f9fa;
+}
+
+#prescription-input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+}
+
+#save-prescription-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#save-prescription-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Logout Link */
+#logout-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #007BFF; /* Blue Logout Button */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#logout-link:hover {
+    color: #0056b3;
+    transform: translateY(-3px);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #details-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #patient-table,
+    #profile-picture-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    #profile-pic {
+        max-width: 120px;
+        height: 120px;
+    }
+}

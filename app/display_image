@@ -1,0 +1,42 @@
+from pymongo import MongoClient
+from PIL import Image
+import io
+
+# # Connect to MongoDB
+# client = MongoClient('mongodb://localhost:27017/')
+# db = client['Project']
+# collection = db['your_collection']
+
+# # Fetch all image documents from the collection
+# image_documents = collection.find()
+
+# # Counter to keep track of displayed images
+# displayed_count = 0
+
+# # Loop through each document
+# for document in image_documents:
+#     # Retrieve binary data
+#     image_data = document["file_data"]
+#     filename = document["filename"]
+
+#     # Convert binary data to an image
+#     image = Image.open(io.BytesIO(image_data))
+
+#     # Display the image (or save if needed)
+#     image.show()  # This will open the image in the default image viewer
+
+#     # Optionally, save the image to disk
+#     # image.save(f"retrieved_{filename}")
+
+#     displayed_count += 1
+#     print(f"Displayed: {filename} ({displayed_count})")
+
+# print("Image fetching completed!")
+client = MongoClient('mongodb://localhost:27017/')
+mongo_db = client['Project']  # Your MongoDB database
+mongo_patient_images = mongo_db['patients']  # The collection storing patient_id and filenames
+        
+        
+# Step 1: Retrieve the document with patient metadata based on patient_id
+image_metadata_document = mongo_patient_images.find_one({"patient_id": 1})
+print(image_metadata_document)

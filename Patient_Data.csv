@@ -1,0 +1,2001 @@
+Patient_ID,Age,Gender,Employer_Category,Diabetic,Over_Weight,Blood_Pressure,Smoker
+1,41,M,Food,0,0,0,0
+2,43,M,Software Industry,0,0,0,0
+3,39,M,Real Estate,0,0,0,0
+4,39,M,Technology,0,0,0,0
+5,39,M,Technology,0,1,0,1
+6,45,M,Technology,0,0,0,0
+7,40,M,Consulting,0,0,0,0
+8,45,M,Technology,0,0,0,0
+9,53,M,Telecom,0,1,0,0
+10,37,M,Real Estate,0,0,0,0
+11,41,M,Technology,0,0,0,0
+12,42,M,Consulting,1,0,0,0
+13,43,M,Consulting,0,0,0,0
+14,43,M,Technology,0,0,0,0
+15,53,M,Technology,0,0,0,0
+16,45,M,Consulting,0,0,0,0
+17,41,M,Software Industry,0,0,0,0
+18,48,M,Software Industry,0,1,0,1
+19,44,M,Technology,0,0,0,0
+20,40,M,Consulting,0,0,0,0
+21,44,M,Health,1,0,0,0
+22,47,M,Retail,0,1,1,0
+23,43,M,Software Industry,1,1,0,0
+24,48,M,Technology,0,0,0,0
+25,41,M,Technology,0,0,0,0
+26,47,M,Technology,0,1,0,0
+27,42,M,Food,0,0,1,0
+28,43,M,Software Industry,0,1,0,1
+29,41,M,Software Industry,1,1,1,1
+30,42,M,Technology,1,0,1,1
+31,38,M,Software Industry,0,0,0,0
+32,61,M,Technology,0,0,0,0
+33,38,M,Technology,0,0,0,0
+34,38,M,Consulting,0,0,0,0
+35,53,M,Technology,0,0,0,1
+36,43,M,Education,0,0,0,0
+37,42,M,Software Industry,1,0,1,1
+38,40,M,Software Industry,0,0,0,0
+39,44,M,Technology,0,0,0,0
+40,43,M,Manufacturing,0,0,0,0
+41,42,M,Technology,0,0,0,0
+42,48,M,Manufacturing,0,0,0,0
+43,40,M,Consulting,0,0,0,0
+44,46,M,Real Estate,0,0,0,0
+45,37,M,Education,1,1,1,1
+46,42,M,Consulting,1,0,1,1
+47,53,M,BFSI,0,1,0,0
+48,42,M,Manufacturing,0,0,0,0
+49,38,M,Technology,0,0,0,0
+50,49,M,Consulting,0,0,0,0
+51,42,M,Software Industry,0,0,0,0
+52,45,M,Retail,1,1,1,1
+53,41,M,Food,1,0,1,0
+54,36,M,Software Industry,0,0,0,0
+55,40,M,Consulting,0,0,0,0
+56,39,M,Software Industry,0,0,0,0
+57,43,M,Software Industry,0,1,0,0
+58,49,M,Education,1,0,0,0
+59,42,M,Consulting,0,0,0,0
+60,34,M,Health,0,1,0,0
+61,46,M,BFSI,0,0,0,0
+62,45,M,Software Industry,0,0,0,0
+63,48,M,Manufacturing,0,0,0,0
+64,53,M,Food,0,0,0,0
+65,41,M,Software Industry,0,0,0,0
+66,49,M,Consulting,0,0,0,0
+67,43,M,Software Industry,1,0,1,0
+68,39,M,Retail,0,0,0,0
+69,38,M,Technology,0,0,0,0
+70,44,M,Consulting,0,0,0,0
+71,37,M,Technology,1,1,0,0
+72,46,M,Consulting,0,0,0,0
+73,40,M,Software Industry,0,1,0,0
+74,43,M,BFSI,0,0,0,0
+75,51,M,Technology,1,0,1,1
+76,47,M,Software Industry,0,0,0,0
+77,43,M,Health,0,0,0,0
+78,49,M,Consulting,0,0,0,0
+79,47,M,Manufacturing,0,1,0,0
+80,62,M,Technology,0,0,0,0
+81,39,M,Consulting,1,1,0,1
+82,55,M,Consulting,0,0,0,0
+83,42,M,Manufacturing,1,1,1,0
+84,43,M,Technology,0,1,1,1
+85,48,M,Telecom,0,1,0,1
+86,43,M,Technology,0,0,0,0
+87,71,M,Technology,0,0,0,0
+88,39,M,Consulting,0,0,0,0
+89,42,M,Technology,1,1,0,1
+90,41,M,Technology,0,1,0,0
+91,49,M,Education,0,0,0,0
+92,42,M,Broadcasting,0,0,0,0
+93,51,M,Technology,0,1,1,1
+94,48,M,Software Industry,0,0,0,0
+95,46,M,Transport,0,0,0,0
+96,51,M,BFSI,0,0,0,0
+97,43,M,Technology,0,0,0,0
+98,40,M,Technology,1,0,1,0
+99,74,M,Technology,0,0,0,0
+100,52,M,Technology,0,0,0,0
+101,40,M,Education,0,0,1,0
+102,42,M,Technology,1,0,1,1
+103,47,M,Telecom,0,0,0,0
+104,44,M,Consulting,0,0,0,0
+105,48,M,Transport,0,1,1,0
+106,45,M,BFSI,1,0,1,1
+107,42,M,Consulting,0,0,1,1
+108,75,M,Telecom,0,0,0,0
+109,57,M,Technology,0,0,0,0
+110,46,M,Real Estate,0,0,0,0
+111,43,M,Consulting,0,0,0,0
+112,54,M,BFSI,0,0,0,0
+113,38,M,Education,0,0,0,0
+114,45,M,Consulting,1,1,1,1
+115,70,M,Retail,0,0,0,0
+116,55,M,Consulting,0,0,0,0
+117,42,M,Software Industry,0,0,0,0
+118,41,M,Software Industry,0,0,0,0
+119,45,M,BFSI,0,0,0,0
+120,39,M,Consulting,0,0,0,0
+121,39,M,Consulting,0,0,0,0
+122,39,M,Software Industry,0,0,0,0
+123,39,M,Education,0,0,0,0
+124,39,M,Technology,0,0,0,1
+125,48,M,Technology,1,1,1,1
+126,46,M,Technology,0,0,0,0
+127,50,M,Education,0,0,0,0
+128,50,M,Retail,1,1,1,1
+129,47,M,Consulting,0,0,0,0
+130,74,M,Technology,0,0,0,0
+131,41,M,Technology,0,0,0,0
+132,41,M,Software Industry,0,0,0,0
+133,71,M,Software Industry,0,0,0,0
+134,43,M,Consulting,0,0,0,0
+135,37,M,Software Industry,0,0,0,0
+136,42,M,Technology,0,0,0,0
+137,42,M,Consulting,0,0,1,1
+138,42,M,Software Industry,0,0,0,0
+139,40,M,Technology,0,0,0,0
+140,42,M,Consulting,0,0,0,0
+141,47,M,Consulting,0,0,0,0
+142,48,M,Telecom,0,0,0,0
+143,40,M,BFSI,0,0,0,0
+144,53,M,Technology,0,0,0,0
+145,44,M,Technology,0,1,0,1
+146,41,M,Technology,0,0,0,0
+147,69,M,Software Industry,0,0,0,0
+148,45,M,BFSI,0,0,0,0
+149,48,M,Education,0,0,0,0
+150,43,M,Retail,0,0,0,0
+151,45,M,BFSI,0,0,0,0
+152,41,M,Technology,0,0,0,0
+153,46,M,Technology,0,0,1,1
+154,47,M,Technology,0,1,0,1
+155,40,M,Technology,0,0,0,0
+156,74,M,Consulting,0,0,0,0
+157,71,M,Software Industry,0,0,0,0
+158,44,M,Retail,1,1,0,0
+159,41,M,Education,1,0,0,1
+160,40,M,Food,0,0,0,0
+161,39,M,Technology,0,0,0,0
+162,46,M,Consulting,0,0,0,0
+163,49,M,Health,0,0,0,0
+164,37,M,Technology,0,1,0,1
+165,39,M,Education,0,1,0,0
+166,57,M,Technology,0,0,0,0
+167,37,M,Consulting,0,0,0,0
+168,46,M,Software Industry,1,0,1,0
+169,43,M,Technology,0,1,0,1
+170,46,M,Consulting,0,0,1,1
+171,43,M,Real Estate,0,0,0,0
+172,39,M,Health,1,1,1,1
+173,44,M,Consulting,0,0,0,0
+174,40,M,Consulting,1,1,0,0
+175,34,M,Technology,1,1,1,0
+176,57,M,Technology,1,0,1,0
+177,73,M,Education,0,0,0,0
+178,75,M,Technology,0,0,0,0
+179,42,M,Software Industry,0,0,0,0
+180,41,M,Technology,0,0,0,0
+181,41,M,Software Industry,1,0,1,0
+182,42,M,Consulting,0,0,0,0
+183,41,M,Software Industry,0,0,0,0
+184,41,M,BFSI,0,0,0,0
+185,48,M,Consulting,0,0,0,0
+186,39,M,Retail,0,0,0,0
+187,42,M,Education,1,0,1,0
+188,45,M,Real Estate,0,0,0,0
+189,38,M,Consulting,0,0,0,0
+190,54,M,Technology,0,0,0,0
+191,37,M,Software Industry,0,1,0,0
+192,42,M,BFSI,0,0,0,0
+193,39,M,Transport,0,0,0,0
+194,41,M,Retail,0,0,0,0
+195,50,M,Technology,0,0,0,0
+196,43,M,Consulting,0,0,0,0
+197,40,M,Consulting,0,0,0,0
+198,38,M,Food,1,1,0,0
+199,47,M,Food,0,0,0,0
+200,51,M,Consulting,0,0,0,0
+201,70,M,Consulting,0,0,0,0
+202,41,M,Technology,0,0,0,0
+203,41,M,Software Industry,0,0,0,0
+204,40,M,Technology,0,0,0,1
+205,66,M,Technology,0,0,0,0
+206,43,M,Software Industry,0,0,0,0
+207,43,M,Education,0,1,0,1
+208,44,M,Telecom,0,0,0,0
+209,41,M,Broadcasting,0,0,0,0
+210,44,M,Consulting,0,0,0,0
+211,46,M,Manufacturing,0,0,0,0
+212,43,M,Consulting,0,0,0,0
+213,44,M,Health,0,0,0,0
+214,64,M,Software Industry,0,0,0,0
+215,45,M,Consulting,0,0,0,0
+216,40,M,Technology,0,1,1,0
+217,45,M,Consulting,1,0,1,0
+218,43,M,Education,0,0,1,1
+219,48,M,Consulting,0,0,0,0
+220,40,M,Technology,0,1,0,0
+221,43,M,Technology,0,0,0,0
+222,54,M,Food,1,0,0,0
+223,51,M,BFSI,0,0,0,0
+224,45,M,Retail,1,0,1,0
+225,55,M,Technology,0,0,0,0
+226,38,M,Consulting,0,0,0,0
+227,37,M,Technology,0,0,0,0
+228,39,M,Consulting,1,1,0,1
+229,40,M,Technology,0,0,0,0
+230,43,M,Consulting,0,0,0,0
+231,41,M,Manufacturing,0,0,0,0
+232,44,M,Consulting,0,0,0,0
+233,45,M,Technology,0,0,0,0
+234,43,M,Education,0,0,0,0
+235,37,M,Consulting,0,0,1,0
+236,48,M,Technology,0,1,1,1
+237,51,M,BFSI,0,0,1,0
+238,42,M,Technology,0,0,0,0
+239,44,M,Software Industry,0,0,0,0
+240,44,M,Technology,1,0,1,0
+241,47,M,Consulting,0,0,0,1
+242,42,M,Software Industry,0,0,0,0
+243,46,M,Technology,0,0,0,0
+244,71,M,BFSI,0,0,0,0
+245,40,M,Consulting,0,0,0,0
+246,41,M,Consulting,0,0,0,0
+247,40,M,Education,0,0,0,0
+248,50,M,Consulting,0,0,0,0
+249,45,M,Technology,0,0,0,0
+250,47,M,Consulting,1,1,0,0
+251,56,M,BFSI,0,0,0,0
+252,45,M,Software Industry,1,1,0,1
+253,43,M,Software Industry,0,0,0,0
+254,72,M,Software Industry,0,0,0,0
+255,53,M,Consulting,0,1,1,1
+256,37,M,Education,0,0,0,0
+257,41,M,BFSI,0,0,0,0
+258,39,M,Technology,0,0,0,0
+259,38,M,Education,0,0,0,0
+260,43,M,Technology,0,1,0,1
+261,42,M,Technology,0,0,0,0
+262,52,M,Consulting,0,0,0,0
+263,38,M,Software Industry,1,1,0,0
+264,43,M,Health,0,0,0,0
+265,45,M,Technology,0,0,0,0
+266,36,M,Technology,0,0,0,0
+267,41,M,Transport,1,0,1,0
+268,47,M,Technology,0,0,0,0
+269,47,M,Software Industry,0,0,0,0
+270,46,M,BFSI,0,0,0,0
+271,45,M,Retail,0,0,0,0
+272,49,M,Consulting,0,0,0,0
+273,40,M,Technology,0,0,0,0
+274,42,M,Transport,0,0,0,0
+275,47,M,BFSI,0,0,0,0
+276,34,M,Consulting,0,0,0,0
+277,39,M,Retail,0,0,0,1
+278,54,M,Software Industry,0,0,0,0
+279,49,M,Technology,0,1,0,0
+280,43,M,Consulting,0,0,0,1
+281,52,M,Consulting,0,0,0,0
+282,45,M,Consulting,0,0,1,1
+283,44,M,Real Estate,0,0,0,0
+284,56,M,Retail,0,0,0,0
+285,40,M,Technology,0,0,0,0
+286,43,M,Technology,0,0,0,0
+287,49,M,Education,0,1,0,0
+288,70,M,Real Estate,0,0,0,0
+289,39,M,Education,0,1,0,0
+290,37,M,Consulting,0,0,0,0
+291,45,M,Software Industry,0,0,0,0
+292,38,M,Technology,0,0,0,0
+293,44,M,Technology,0,0,0,0
+294,46,M,Consulting,1,0,1,1
+295,46,M,Consulting,0,0,1,1
+296,43,M,Transport,0,0,0,0
+297,45,M,Retail,0,0,0,0
+298,44,M,Software Industry,0,0,0,0
+299,40,M,Technology,0,0,0,0
+300,45,M,Technology,0,0,0,0
+301,49,M,Transport,0,0,0,0
+302,44,M,Consulting,0,0,0,0
+303,44,M,Technology,0,0,0,0
+304,37,M,Software Industry,0,1,0,0
+305,41,M,Technology,0,0,0,0
+306,37,M,Technology,0,0,0,0
+307,39,M,Retail,0,1,0,1
+308,48,M,Consulting,0,0,0,0
+309,39,M,Food,0,0,0,1
+310,39,M,Telecom,0,0,0,0
+311,54,M,Manufacturing,1,1,0,0
+312,35,M,Technology,1,1,0,0
+313,37,M,BFSI,0,0,0,0
+314,40,M,Technology,0,1,0,1
+315,40,M,Education,0,0,0,0
+316,75,M,Health,0,0,0,0
+317,44,M,Technology,0,1,1,1
+318,41,M,Software Industry,1,0,1,1
+319,42,M,Software Industry,0,0,1,0
+320,45,M,Software Industry,1,1,1,0
+321,44,M,Technology,0,0,0,0
+322,42,M,Technology,0,0,0,0
+323,48,M,Consulting,0,1,0,1
+324,44,M,Technology,0,0,0,0
+325,43,M,Consulting,1,1,0,0
+326,40,M,Food,0,0,0,0
+327,45,M,Technology,1,0,1,1
+328,44,M,Manufacturing,0,0,0,0
+329,42,M,Software Industry,0,0,0,0
+330,47,M,Broadcasting,0,0,0,0
+331,41,M,Technology,0,0,0,0
+332,34,M,Manufacturing,0,0,0,0
+333,39,M,Manufacturing,0,0,0,0
+334,41,M,Real Estate,0,0,0,0
+335,42,M,Technology,0,0,0,0
+336,44,M,Software Industry,0,0,0,0
+337,39,M,Education,0,0,0,0
+338,35,M,Technology,0,0,0,0
+339,71,M,Consulting,0,0,0,0
+340,43,M,BFSI,0,0,0,0
+341,47,M,Technology,0,0,0,0
+342,45,M,Technology,0,0,0,0
+343,40,M,Technology,0,1,0,0
+344,41,M,Health,0,0,0,0
+345,39,M,Technology,0,0,0,0
+346,44,M,Technology,0,0,0,0
+347,47,M,Technology,0,0,0,0
+348,47,M,Software Industry,0,0,0,0
+349,35,M,Real Estate,0,0,0,0
+350,41,M,Transport,0,0,0,0
+351,41,M,Health,0,0,0,0
+352,41,M,Consulting,0,0,0,0
+353,73,M,Consulting,0,0,0,0
+354,47,M,Consulting,1,1,1,1
+355,41,M,Technology,1,0,1,0
+356,45,M,Food,0,0,0,0
+357,44,M,Education,0,0,0,0
+358,47,M,Technology,0,1,0,0
+359,44,M,Consulting,0,0,0,0
+360,40,M,Software Industry,0,1,0,0
+361,38,M,Consulting,1,1,0,0
+362,40,M,BFSI,0,1,0,0
+363,46,M,Manufacturing,0,0,0,0
+364,43,M,BFSI,0,0,0,1
+365,40,M,Consulting,0,0,0,0
+366,44,M,Technology,0,0,0,0
+367,42,M,Technology,0,0,0,0
+368,47,M,Technology,0,0,1,1
+369,43,M,Technology,0,0,0,1
+370,52,M,Technology,0,1,0,0
+371,39,M,Software Industry,1,1,1,1
+372,37,M,Consulting,0,0,0,0
+373,53,M,Education,0,0,0,0
+374,42,M,Broadcasting,1,0,1,0
+375,46,M,Manufacturing,0,0,0,0
+376,44,M,Technology,0,0,0,0
+377,43,M,BFSI,0,0,0,0
+378,42,M,Software Industry,0,0,0,0
+379,42,M,Software Industry,0,0,0,0
+380,39,M,Food,0,0,0,0
+381,58,M,Real Estate,0,0,0,0
+382,44,M,Technology,0,0,0,0
+383,46,M,Consulting,0,0,0,0
+384,45,M,Technology,0,0,0,0
+385,38,M,Retail,0,0,0,0
+386,50,M,Transport,0,0,0,0
+387,47,M,Broadcasting,0,1,1,1
+388,46,M,Technology,1,0,1,0
+389,42,M,Education,0,0,0,0
+390,36,M,Technology,0,0,0,0
+391,37,M,Software Industry,1,0,0,1
+392,48,M,Technology,0,0,0,0
+393,44,M,Telecom,0,1,0,0
+394,39,M,Software Industry,0,1,0,0
+395,54,M,Technology,0,0,0,0
+396,52,M,Real Estate,0,1,0,0
+397,48,M,Technology,0,0,0,0
+398,73,M,Broadcasting,0,0,0,0
+399,40,M,Consulting,0,0,0,0
+400,53,M,Technology,0,0,0,0
+401,42,M,Software Industry,1,1,1,0
+402,45,M,Technology,0,0,0,0
+403,50,M,BFSI,0,0,0,0
+404,52,M,Real Estate,1,1,0,1
+405,47,M,Retail,0,1,0,0
+406,39,M,Technology,1,1,1,0
+407,53,M,Consulting,0,0,0,0
+408,48,M,Education,0,1,0,1
+409,39,M,Education,0,0,0,0
+410,37,M,BFSI,0,1,0,0
+411,45,M,Technology,0,0,0,0
+412,54,M,Manufacturing,0,0,0,0
+413,73,M,Real Estate,0,0,0,0
+414,42,M,Technology,0,0,0,0
+415,55,M,Manufacturing,0,0,0,0
+416,42,M,Technology,0,0,0,0
+417,40,M,Education,0,0,0,0
+418,70,M,Education,0,0,0,0
+419,43,M,Education,0,0,0,0
+420,43,M,Technology,0,0,0,0
+421,42,M,Technology,0,0,0,0
+422,43,M,Retail,0,0,0,0
+423,40,M,Food,0,1,0,0
+424,52,M,Technology,0,0,0,0
+425,40,M,Software Industry,0,1,0,1
+426,40,M,Software Industry,1,1,1,1
+427,43,M,Health,1,1,0,0
+428,55,M,Software Industry,0,0,0,0
+429,71,M,Technology,0,0,0,0
+430,45,M,Software Industry,1,0,0,1
+431,54,M,Consulting,0,0,0,0
+432,40,M,Consulting,0,0,0,0
+433,44,M,Technology,0,0,0,0
+434,42,M,Retail,0,0,0,0
+435,51,M,Education,0,0,0,1
+436,48,M,BFSI,0,0,0,1
+437,41,M,Consulting,0,0,0,0
+438,38,M,Technology,0,0,0,0
+439,44,M,Education,0,1,0,0
+440,40,M,BFSI,0,0,0,0
+441,50,M,Software Industry,1,0,0,0
+442,48,M,Retail,0,0,0,0
+443,42,M,Health,0,0,0,0
+444,51,M,Manufacturing,0,0,0,0
+445,36,M,Software Industry,0,0,0,0
+446,40,M,BFSI,0,0,0,0
+447,36,M,Education,1,1,1,1
+448,50,M,Transport,0,0,1,0
+449,39,M,BFSI,0,0,0,0
+450,72,M,Education,0,0,0,0
+451,35,M,Food,1,1,1,1
+452,49,M,Consulting,0,0,0,0
+453,41,M,Broadcasting,1,1,1,0
+454,39,M,Technology,0,1,0,0
+455,38,M,Health,0,0,0,0
+456,42,M,Consulting,0,0,0,0
+457,43,M,Technology,0,0,0,0
+458,47,M,Education,0,1,0,0
+459,45,M,Technology,0,0,0,0
+460,44,M,Consulting,0,0,0,0
+461,34,M,Retail,1,1,0,0
+462,50,M,Technology,0,0,0,0
+463,47,M,Consulting,0,0,0,0
+464,41,M,Retail,0,0,0,0
+465,47,M,Consulting,0,0,0,0
+466,44,M,Education,0,0,0,0
+467,48,M,Consulting,0,0,0,0
+468,40,M,Telecom,0,0,0,0
+469,42,M,Technology,1,1,1,1
+470,41,M,Real Estate,0,0,0,0
+471,74,M,Consulting,0,0,0,0
+472,43,M,Technology,0,0,0,0
+473,40,M,Software Industry,0,0,0,0
+474,52,M,Education,0,1,1,1
+475,44,M,Consulting,0,0,0,0
+476,46,M,Manufacturing,0,0,0,0
+477,43,M,Transport,0,0,0,0
+478,41,M,Consulting,0,0,0,0
+479,40,M,Consulting,0,1,0,0
+480,39,M,Technology,0,0,0,0
+481,42,M,Consulting,0,0,0,0
+482,46,M,Telecom,0,0,0,0
+483,45,M,Technology,0,0,0,0
+484,50,M,Health,1,1,0,0
+485,43,M,Technology,0,0,0,0
+486,41,M,Education,0,1,1,1
+487,54,M,Retail,0,0,0,0
+488,44,M,Transport,0,0,0,0
+489,50,M,Consulting,1,1,0,1
+490,38,M,Software Industry,1,1,1,0
+491,45,M,Consulting,0,0,0,1
+492,44,M,Manufacturing,0,0,0,0
+493,41,M,Education,1,0,1,0
+494,42,M,Technology,0,0,0,0
+495,42,M,Education,1,1,1,0
+496,75,M,Real Estate,0,0,0,0
+497,46,M,Technology,0,0,0,0
+498,76,M,Software Industry,0,0,0,0
+499,47,M,Education,1,1,1,0
+500,44,M,Consulting,0,0,0,0
+501,44,M,Consulting,0,0,0,0
+502,44,M,Technology,0,0,0,0
+503,49,M,Consulting,0,1,1,0
+504,38,M,Software Industry,0,0,0,0
+505,44,M,Software Industry,0,0,0,0
+506,71,M,Transport,0,0,0,0
+507,34,M,Broadcasting,1,1,0,0
+508,39,M,Consulting,0,0,0,0
+509,40,M,Transport,0,0,0,0
+510,51,M,Software Industry,0,0,0,0
+511,42,M,Technology,0,0,0,0
+512,59,M,Food,0,0,0,0
+513,41,M,Real Estate,0,0,0,0
+514,54,M,Real Estate,0,1,0,0
+515,38,M,Transport,0,0,0,0
+516,48,M,Technology,0,0,0,0
+517,42,M,Health,0,0,0,0
+518,40,M,Consulting,0,0,0,0
+519,46,M,Broadcasting,1,1,1,1
+520,41,M,Consulting,1,1,1,0
+521,44,M,Consulting,0,0,0,0
+522,46,M,Consulting,1,1,1,1
+523,40,M,Education,0,0,0,0
+524,41,M,Software Industry,1,1,1,1
+525,39,M,Technology,1,1,0,0
+526,44,M,Consulting,0,0,0,0
+527,45,M,Technology,0,0,0,0
+528,39,M,Real Estate,0,0,0,0
+529,50,M,Consulting,0,0,0,0
+530,44,M,Technology,0,0,0,0
+531,40,M,Consulting,0,0,0,0
+532,51,M,Software Industry,0,0,0,0
+533,52,M,BFSI,0,1,1,1
+534,46,M,Consulting,1,0,1,0
+535,39,M,Technology,0,0,0,0
+536,40,M,Consulting,0,0,0,0
+537,42,M,BFSI,0,0,0,0
+538,74,M,Technology,0,0,0,0
+539,43,M,Broadcasting,0,0,0,0
+540,50,M,Retail,1,0,0,1
+541,45,M,Food,0,0,0,0
+542,39,M,Manufacturing,0,0,0,0
+543,35,M,Technology,0,1,0,1
+544,43,M,Education,0,0,0,0
+545,50,M,Consulting,1,0,1,1
+546,36,M,Technology,0,0,0,0
+547,45,M,Software Industry,0,0,0,0
+548,46,M,Manufacturing,0,0,0,0
+549,42,M,Retail,1,1,1,1
+550,56,M,Consulting,0,1,1,0
+551,51,M,Technology,0,0,0,0
+552,44,M,Technology,0,0,0,0
+553,36,M,Retail,0,0,0,0
+554,40,M,Education,1,1,0,0
+555,42,M,Technology,0,0,0,0
+556,36,M,Technology,0,0,0,0
+557,44,M,Transport,1,1,1,1
+558,38,M,Technology,0,0,0,0
+559,39,M,Consulting,0,0,1,1
+560,50,M,Software Industry,0,0,0,0
+561,44,M,Technology,0,0,0,0
+562,42,M,Technology,0,0,1,0
+563,41,M,Consulting,0,0,0,0
+564,40,M,Software Industry,0,0,0,0
+565,38,M,Education,1,1,0,0
+566,43,M,Technology,0,0,0,0
+567,43,M,Technology,0,1,1,1
+568,44,M,Technology,0,0,0,0
+569,39,M,Manufacturing,1,1,1,1
+570,43,M,Consulting,0,0,0,0
+571,51,M,Consulting,0,0,0,0
+572,44,M,Consulting,0,0,0,0
+573,41,M,Technology,1,1,1,0
+574,49,M,Software Industry,0,0,0,0
+575,44,M,Technology,0,0,0,0
+576,40,M,Software Industry,0,0,0,0
+577,40,M,Technology,0,0,0,0
+578,42,M,Software Industry,0,0,0,0
+579,60,M,Technology,1,0,1,1
+580,40,M,Telecom,0,0,0,0
+581,44,M,Technology,0,1,1,1
+582,46,M,Software Industry,0,0,0,0
+583,52,M,Technology,0,0,0,0
+584,60,M,Consulting,1,1,0,0
+585,73,M,Technology,0,0,0,0
+586,43,M,Consulting,0,0,0,0
+587,49,M,Technology,0,0,0,0
+588,44,M,Consulting,0,0,0,0
+589,37,M,Education,0,0,0,0
+590,37,M,Consulting,0,0,0,0
+591,40,M,Software Industry,0,0,0,1
+592,47,M,BFSI,0,0,0,0
+593,39,M,Software Industry,0,0,0,0
+594,52,M,Consulting,0,0,0,0
+595,40,M,Software Industry,0,0,0,0
+596,41,M,Broadcasting,1,0,1,0
+597,42,M,Technology,0,0,0,0
+598,43,M,Technology,0,1,0,0
+599,42,M,Technology,0,0,0,0
+600,38,M,Education,0,1,0,0
+601,45,M,Software Industry,0,0,0,0
+602,44,M,Retail,1,0,1,1
+603,40,M,Education,0,0,0,0
+604,57,M,Consulting,0,0,0,0
+605,50,M,Education,0,0,1,1
+606,41,M,Technology,0,1,1,1
+607,56,M,Consulting,1,1,0,0
+608,42,M,Consulting,0,0,0,0
+609,38,M,Technology,0,1,0,0
+610,50,M,Education,0,0,0,0
+611,40,M,Consulting,0,1,0,1
+612,39,M,Software Industry,0,0,0,0
+613,39,M,Consulting,0,1,0,0
+614,37,M,Software Industry,0,0,0,0
+615,45,M,Technology,0,0,0,0
+616,71,M,Software Industry,0,0,0,0
+617,73,M,Technology,0,0,0,0
+618,71,M,Consulting,0,1,0,1
+619,39,M,Consulting,0,0,0,0
+620,50,M,Real Estate,0,0,0,0
+621,43,M,Software Industry,0,1,0,0
+622,44,M,Technology,1,0,0,0
+623,58,M,Broadcasting,0,0,0,0
+624,70,M,Transport,0,0,0,0
+625,47,M,Technology,0,0,0,0
+626,41,M,Consulting,0,0,0,0
+627,45,M,Education,0,0,0,1
+628,41,M,Consulting,0,0,0,0
+629,46,M,Technology,1,0,1,0
+630,38,M,Technology,0,0,0,0
+631,43,M,Technology,1,1,0,0
+632,43,M,BFSI,0,0,0,0
+633,44,M,Consulting,0,0,0,0
+634,40,M,Software Industry,0,0,0,0
+635,39,M,Consulting,0,0,0,1
+636,59,M,BFSI,0,0,0,0
+637,45,M,Technology,0,0,0,1
+638,43,M,Technology,0,1,1,1
+639,41,M,Retail,0,0,0,0
+640,74,M,Consulting,0,0,0,0
+641,42,M,Technology,0,0,0,0
+642,43,M,Software Industry,1,1,1,1
+643,41,M,Software Industry,0,0,0,0
+644,41,M,Manufacturing,0,0,0,0
+645,42,M,Consulting,0,0,0,0
+646,47,M,Telecom,1,1,1,0
+647,42,M,Education,0,0,0,0
+648,45,M,Technology,0,0,0,0
+649,41,M,Food,1,0,0,1
+650,34,M,Telecom,0,0,0,1
+651,42,M,Telecom,1,0,0,1
+652,42,M,Education,0,0,0,0
+653,55,M,Software Industry,0,0,0,0
+654,41,M,Technology,0,0,0,0
+655,44,M,Education,1,1,0,1
+656,47,M,Technology,0,0,0,0
+657,46,M,Software Industry,1,0,1,1
+658,50,M,Real Estate,0,0,1,1
+659,46,M,Transport,0,0,0,0
+660,38,M,Technology,0,0,0,0
+661,40,M,Software Industry,0,0,0,0
+662,45,M,Technology,0,1,1,1
+663,39,M,Food,0,0,0,0
+664,43,M,Technology,0,0,0,0
+665,42,M,BFSI,0,0,0,0
+666,43,M,Software Industry,0,0,0,0
+667,39,M,Transport,0,0,0,0
+668,45,M,Education,0,0,0,1
+669,47,M,Technology,0,1,0,1
+670,43,M,Education,0,0,0,0
+671,40,M,Software Industry,0,0,0,0
+672,42,M,Consulting,1,0,1,1
+673,42,M,Technology,0,0,0,0
+674,47,M,Education,0,1,0,0
+675,40,M,Software Industry,0,0,0,0
+676,45,M,Software Industry,1,1,1,1
+677,42,M,Retail,0,0,0,0
+678,42,M,Transport,0,0,0,0
+679,39,M,Health,0,1,0,0
+680,39,M,Technology,0,0,0,0
+681,57,M,Food,0,0,0,0
+682,41,M,Consulting,0,0,0,0
+683,72,M,Broadcasting,0,0,0,0
+684,42,M,BFSI,0,0,0,0
+685,53,M,Food,0,0,0,0
+686,37,M,Software Industry,0,0,0,0
+687,40,M,Technology,0,0,0,0
+688,73,M,Technology,0,0,0,0
+689,41,M,Retail,0,0,0,0
+690,46,M,Technology,1,0,0,0
+691,43,M,Software Industry,0,0,0,0
+692,38,M,Software Industry,0,0,0,0
+693,45,M,Technology,0,0,0,0
+694,47,M,BFSI,0,1,1,1
+695,44,M,Technology,0,0,0,0
+696,48,M,Manufacturing,0,1,1,0
+697,38,M,Software Industry,1,1,0,0
+698,35,M,BFSI,0,0,0,0
+699,40,M,Health,0,0,0,0
+700,40,M,Food,0,0,0,0
+701,37,M,Technology,0,0,0,0
+702,72,M,Software Industry,0,0,0,0
+703,54,M,Education,0,1,0,0
+704,41,M,Technology,1,0,1,1
+705,41,M,Transport,0,0,0,0
+706,43,M,Food,0,1,1,0
+707,43,M,Consulting,1,1,1,0
+708,41,M,Telecom,0,0,0,1
+709,35,M,Technology,0,0,0,0
+710,55,M,Retail,0,0,0,0
+711,45,M,Health,1,0,1,1
+712,41,M,Technology,0,0,0,0
+713,44,M,Software Industry,0,0,0,0
+714,38,M,BFSI,1,1,1,1
+715,41,M,Technology,0,0,0,0
+716,41,M,Software Industry,1,1,1,1
+717,43,M,Technology,0,0,0,0
+718,44,M,BFSI,0,0,0,0
+719,41,M,Technology,1,1,1,0
+720,40,M,Telecom,0,0,0,0
+721,72,M,Retail,0,0,0,0
+722,45,M,Health,0,0,0,1
+723,42,M,Education,0,0,0,0
+724,49,M,Transport,0,0,0,0
+725,72,M,Technology,0,0,0,0
+726,48,M,Manufacturing,0,0,0,0
+727,74,M,Consulting,0,0,0,0
+728,72,M,Software Industry,0,0,0,0
+729,43,M,Technology,0,1,0,1
+730,36,M,Software Industry,1,1,1,1
+731,48,M,Real Estate,0,0,0,0
+732,48,M,Transport,0,0,0,0
+733,38,M,Technology,0,0,0,0
+734,46,M,Technology,1,0,0,1
+735,40,M,Consulting,0,0,0,0
+736,45,M,Retail,0,0,0,0
+737,48,M,Consulting,1,0,0,0
+738,49,M,Software Industry,1,1,0,0
+739,39,M,Manufacturing,0,1,0,1
+740,42,M,Consulting,0,0,0,0
+741,44,M,Retail,0,0,0,0
+742,51,M,Food,0,0,0,0
+743,40,M,Technology,0,0,0,0
+744,46,M,Food,0,0,1,1
+745,41,M,Consulting,0,0,0,0
+746,48,M,Health,0,0,0,0
+747,44,M,Software Industry,0,0,0,0
+748,43,M,BFSI,0,1,0,1
+749,75,M,Consulting,0,0,0,0
+750,67,M,Transport,0,0,0,0
+751,45,M,Software Industry,0,0,0,0
+752,55,M,Manufacturing,0,0,0,0
+753,39,M,BFSI,0,0,0,0
+754,38,M,Education,0,0,0,0
+755,44,M,Technology,0,0,0,1
+756,41,M,Software Industry,0,0,0,0
+757,41,M,Consulting,1,1,0,0
+758,48,M,Technology,0,1,0,1
+759,50,M,Technology,0,0,0,0
+760,72,M,Consulting,0,0,0,0
+761,52,M,Technology,1,0,1,1
+762,63,M,Education,0,0,0,0
+763,47,M,Retail,0,1,1,1
+764,42,M,Technology,0,0,0,0
+765,39,M,Software Industry,0,0,0,0
+766,42,M,Consulting,1,1,1,0
+767,48,M,BFSI,0,0,0,0
+768,43,M,Consulting,0,1,0,0
+769,45,M,Consulting,0,0,0,0
+770,49,M,Technology,0,0,0,0
+771,45,M,Manufacturing,0,0,1,1
+772,50,M,Software Industry,1,0,1,0
+773,37,M,Manufacturing,0,0,0,0
+774,42,M,Telecom,0,0,0,0
+775,44,M,Technology,0,0,0,0
+776,36,M,Software Industry,0,0,0,0
+777,43,M,Manufacturing,0,0,0,0
+778,39,M,Manufacturing,0,0,0,0
+779,39,M,Technology,0,0,0,0
+780,49,M,Technology,0,1,0,1
+781,35,M,Real Estate,0,0,0,0
+782,41,M,Consulting,0,0,0,0
+783,47,M,Software Industry,0,0,0,0
+784,39,M,Software Industry,1,0,0,0
+785,39,M,Technology,0,0,0,0
+786,53,M,Education,0,1,0,1
+787,38,M,Technology,0,1,0,1
+788,42,M,Real Estate,0,0,0,0
+789,41,M,Technology,0,0,1,1
+790,36,M,Retail,0,0,0,1
+791,71,M,Consulting,0,0,0,0
+792,36,M,Technology,0,0,0,0
+793,43,M,Consulting,0,0,0,0
+794,43,M,Technology,0,0,0,0
+795,47,M,Technology,1,1,0,0
+796,40,M,Consulting,0,0,0,0
+797,40,M,Software Industry,0,0,0,0
+798,49,M,Telecom,0,0,0,0
+799,45,M,Consulting,1,1,0,1
+800,70,M,Manufacturing,0,0,0,0
+801,44,M,Software Industry,0,0,0,0
+802,54,M,Consulting,0,0,0,1
+803,46,M,Consulting,1,0,1,1
+804,39,M,Technology,0,0,0,0
+805,41,M,Consulting,0,0,0,0
+806,43,M,BFSI,0,0,0,0
+807,45,M,Health,0,0,0,0
+808,43,M,Software Industry,0,0,0,0
+809,42,M,Software Industry,1,0,0,1
+810,43,M,Software Industry,0,0,0,0
+811,52,M,Technology,0,0,0,0
+812,53,M,Education,0,0,1,0
+813,47,M,Consulting,0,1,1,1
+814,43,M,Health,0,0,0,0
+815,44,M,Transport,1,0,1,1
+816,51,M,Retail,0,0,0,0
+817,41,M,Manufacturing,0,0,0,0
+818,43,M,Consulting,0,0,0,1
+819,42,M,Technology,1,1,1,1
+820,47,M,Consulting,0,0,0,0
+821,38,M,Software Industry,0,0,0,0
+822,42,M,Technology,0,0,0,0
+823,42,M,Technology,1,1,0,1
+824,46,M,Retail,0,0,0,0
+825,42,M,Real Estate,0,0,0,0
+826,45,M,Technology,0,0,0,0
+827,41,M,Software Industry,0,0,0,0
+828,43,M,Software Industry,0,0,0,0
+829,50,M,Technology,0,0,0,0
+830,44,M,Software Industry,0,0,0,0
+831,42,M,Retail,1,1,0,1
+832,38,M,BFSI,0,0,0,0
+833,45,M,Software Industry,0,0,0,0
+834,47,M,Manufacturing,1,1,0,0
+835,47,M,Consulting,1,1,0,1
+836,47,M,Software Industry,1,1,1,1
+837,41,M,Real Estate,1,1,1,1
+838,47,M,Consulting,0,0,0,0
+839,47,M,Consulting,0,1,0,0
+840,51,M,Technology,1,0,0,0
+841,43,M,Health,0,1,0,0
+842,53,M,Technology,0,0,0,0
+843,44,M,Retail,0,0,0,0
+844,51,M,Transport,0,0,0,0
+845,42,M,BFSI,0,0,0,0
+846,33,M,Retail,0,1,0,0
+847,46,M,Consulting,0,0,0,0
+848,39,M,Technology,0,1,0,1
+849,53,M,Technology,0,0,0,0
+850,42,M,Consulting,0,0,0,0
+851,44,M,Software Industry,0,0,0,0
+852,46,M,Technology,0,0,0,0
+853,46,M,Technology,0,0,1,1
+854,43,M,Software Industry,0,0,0,0
+855,45,M,Consulting,0,0,0,0
+856,47,M,Software Industry,0,0,0,0
+857,48,M,Software Industry,0,1,0,0
+858,38,M,Consulting,0,1,0,0
+859,42,M,Consulting,0,0,0,0
+860,46,M,Telecom,0,0,0,0
+861,48,M,Consulting,0,0,0,0
+862,39,M,Technology,0,0,0,0
+863,40,M,Software Industry,0,0,0,0
+864,45,M,Technology,0,0,0,0
+865,36,M,Food,0,1,1,1
+866,42,M,Transport,1,1,1,1
+867,51,M,Software Industry,0,0,0,0
+868,44,M,Manufacturing,0,0,0,0
+869,37,M,Manufacturing,0,0,0,0
+870,38,M,Consulting,0,0,1,0
+871,44,M,Technology,0,0,0,0
+872,38,M,Software Industry,1,1,1,0
+873,48,M,Technology,0,1,0,0
+874,45,M,Retail,0,0,0,0
+875,43,M,Consulting,0,0,0,0
+876,44,M,Technology,1,1,1,0
+877,41,M,Technology,0,0,0,0
+878,44,M,Health,0,0,0,0
+879,42,M,Software Industry,0,0,0,0
+880,43,M,Software Industry,0,0,0,0
+881,49,M,Technology,0,0,0,0
+882,52,M,Technology,1,1,0,1
+883,39,M,Telecom,0,0,0,0
+884,44,M,Health,1,1,0,1
+885,46,M,Technology,0,0,0,0
+886,52,M,Technology,1,1,1,0
+887,37,M,Food,0,0,1,1
+888,42,M,Real Estate,1,0,0,1
+889,45,M,Software Industry,0,0,1,1
+890,39,M,Software Industry,1,1,1,1
+891,46,M,Retail,0,0,0,0
+892,44,M,Software Industry,1,1,0,1
+893,43,M,Software Industry,0,0,0,0
+894,74,M,Software Industry,0,0,0,0
+895,40,M,Technology,0,0,0,0
+896,42,M,Telecom,0,0,0,0
+897,52,M,Consulting,1,1,1,0
+898,54,M,Technology,0,0,0,0
+899,44,M,BFSI,0,0,0,0
+900,76,M,Real Estate,0,0,0,0
+901,41,M,Consulting,0,0,0,0
+902,39,M,Education,0,0,0,0
+903,40,M,Education,0,0,0,0
+904,39,M,Technology,0,0,0,0
+905,43,M,Technology,0,1,0,0
+906,42,M,Technology,0,0,0,0
+907,43,M,Software Industry,0,0,0,0
+908,48,M,Manufacturing,0,0,1,1
+909,46,M,Technology,0,0,0,0
+910,54,M,Food,0,0,0,0
+911,43,M,Software Industry,0,1,1,0
+912,42,M,Consulting,1,0,1,1
+913,44,M,Consulting,1,0,0,1
+914,43,M,Software Industry,0,0,0,0
+915,42,M,Consulting,0,0,0,0
+916,59,M,Software Industry,0,0,0,0
+917,39,M,Technology,0,0,0,0
+918,46,M,Technology,0,0,0,0
+919,36,M,Software Industry,0,0,0,0
+920,46,M,Consulting,0,0,0,0
+921,43,M,BFSI,1,1,0,0
+922,72,M,Health,0,0,0,0
+923,52,M,Consulting,1,0,0,0
+924,73,M,Software Industry,0,0,0,0
+925,47,M,Technology,0,1,0,1
+926,48,M,Transport,0,0,0,0
+927,41,M,Technology,0,0,0,0
+928,40,M,Telecom,1,1,0,1
+929,47,M,Consulting,1,1,0,1
+930,40,M,Software Industry,0,0,0,0
+931,38,M,Software Industry,0,0,0,0
+932,45,M,Consulting,1,0,1,1
+933,42,M,Broadcasting,0,0,1,1
+934,40,M,Consulting,0,0,0,1
+935,40,M,Software Industry,1,1,0,0
+936,74,M,Consulting,0,0,0,0
+937,50,M,Education,0,0,0,0
+938,42,M,Consulting,0,0,0,0
+939,40,M,Technology,0,0,0,0
+940,47,M,Software Industry,0,0,0,0
+941,41,M,Consulting,1,1,0,1
+942,65,M,Transport,0,0,1,1
+943,49,M,Consulting,0,0,0,0
+944,45,M,Retail,0,0,0,1
+945,47,M,Education,0,0,0,0
+946,46,M,BFSI,0,1,1,0
+947,47,M,Food,0,0,0,0
+948,40,M,Technology,0,1,1,1
+949,41,M,Technology,0,0,0,0
+950,55,M,Technology,0,0,0,0
+951,37,M,Telecom,0,0,0,0
+952,41,M,Consulting,0,0,1,1
+953,45,M,Software Industry,0,0,0,0
+954,48,M,Software Industry,1,1,0,1
+955,38,M,Technology,1,1,0,1
+956,37,M,Retail,0,0,0,0
+957,52,M,BFSI,0,0,0,0
+958,43,M,Technology,1,1,0,0
+959,54,M,Broadcasting,0,0,0,0
+960,45,M,Manufacturing,0,1,1,1
+961,43,M,BFSI,0,0,0,0
+962,39,M,Education,0,0,0,0
+963,44,M,Technology,0,0,0,0
+964,50,M,Technology,1,0,1,0
+965,52,M,Technology,1,0,0,0
+966,44,M,Software Industry,0,1,0,1
+967,42,M,Education,0,0,0,0
+968,34,M,Transport,0,0,0,0
+969,37,M,Technology,0,1,0,1
+970,43,M,BFSI,0,0,1,1
+971,39,M,BFSI,1,1,0,1
+972,43,M,Transport,0,0,0,0
+973,44,M,Software Industry,0,1,0,1
+974,48,M,Technology,0,0,0,0
+975,44,M,Technology,0,0,0,0
+976,44,M,Consulting,0,0,0,0
+977,38,M,Education,1,1,1,1
+978,38,M,Manufacturing,0,1,1,1
+979,56,M,Software Industry,0,0,0,0
+980,44,M,Health,0,0,0,0
+981,40,M,Software Industry,0,0,0,0
+982,44,M,Telecom,0,0,0,0
+983,47,M,BFSI,0,1,0,0
+984,46,M,Telecom,0,0,0,0
+985,40,M,Software Industry,0,0,0,0
+986,44,M,BFSI,0,0,0,0
+987,41,M,Technology,0,0,0,0
+988,47,M,Technology,0,0,0,0
+989,46,M,Software Industry,0,0,0,1
+990,49,M,Broadcasting,0,0,0,0
+991,39,M,Telecom,0,0,0,0
+992,45,M,Manufacturing,0,0,0,0
+993,46,M,Software Industry,0,0,0,0
+994,74,M,Education,0,0,0,0
+995,45,M,Technology,0,0,0,0
+996,50,M,BFSI,0,0,0,0
+997,46,M,Manufacturing,0,0,0,0
+998,39,M,BFSI,1,1,1,1
+999,44,M,Food,0,0,0,0
+1000,42,M,Manufacturing,0,0,0,0
+1001,43,F,Telecom,0,1,1,1
+1002,50,F,BFSI,0,0,0,0
+1003,43,F,Technology,0,0,0,0
+1004,41,F,Transport,1,1,0,0
+1005,47,F,Software Industry,0,0,0,0
+1006,38,F,Education,0,0,0,0
+1007,41,F,Technology,1,1,1,1
+1008,47,F,Technology,0,0,0,0
+1009,40,F,Consulting,0,0,0,0
+1010,49,F,Technology,0,0,0,0
+1011,49,F,Health,0,0,0,0
+1012,47,F,Software Industry,0,0,0,0
+1013,72,F,Technology,0,0,0,0
+1014,44,F,Transport,0,0,0,0
+1015,37,F,Broadcasting,0,0,0,0
+1016,46,F,Consulting,1,1,1,0
+1017,47,F,Technology,0,0,0,0
+1018,53,F,Manufacturing,0,0,0,0
+1019,36,F,Technology,0,0,0,0
+1020,56,F,Transport,0,1,0,0
+1021,40,F,BFSI,0,0,0,0
+1022,43,F,Consulting,0,0,0,0
+1023,41,F,Software Industry,0,0,0,0
+1024,50,F,Technology,0,0,0,0
+1025,45,F,BFSI,0,0,0,0
+1026,41,F,Software Industry,0,0,0,0
+1027,48,F,Education,0,0,0,0
+1028,37,F,Technology,1,1,1,0
+1029,48,F,Technology,0,1,0,0
+1030,41,F,Consulting,1,1,1,1
+1031,40,F,BFSI,0,1,0,0
+1032,43,F,Education,1,1,0,0
+1033,38,F,Software Industry,0,0,0,0
+1034,41,F,Education,1,0,1,1
+1035,42,F,Consulting,0,0,0,0
+1036,72,F,Technology,0,0,0,0
+1037,44,F,Technology,0,0,0,0
+1038,44,F,Software Industry,0,1,0,0
+1039,43,F,Technology,0,1,1,1
+1040,47,F,Technology,0,0,0,0
+1041,38,F,Telecom,0,0,0,0
+1042,48,F,Software Industry,0,0,0,0
+1043,44,F,Food,0,0,0,0
+1044,48,F,Consulting,0,1,0,1
+1045,45,F,Health,0,0,0,0
+1046,73,F,BFSI,0,0,0,0
+1047,42,F,Retail,1,0,1,0
+1048,46,F,Technology,0,0,0,0
+1049,42,F,Consulting,0,0,0,0
+1050,42,F,Technology,0,0,0,0
+1051,41,F,Consulting,0,0,0,0
+1052,46,F,Broadcasting,0,0,0,0
+1053,70,F,Food,0,1,1,1
+1054,40,F,Health,0,0,0,0
+1055,44,F,Software Industry,0,1,0,0
+1056,52,F,Real Estate,0,0,0,0
+1057,44,F,Transport,0,0,0,0
+1058,60,F,Consulting,0,0,0,0
+1059,44,F,Manufacturing,0,0,0,0
+1060,48,F,Technology,0,0,0,0
+1061,54,F,Telecom,0,0,0,0
+1062,43,F,Software Industry,0,1,0,0
+1063,38,F,Manufacturing,0,0,0,0
+1064,40,F,Technology,1,0,0,0
+1065,37,F,Consulting,0,0,0,0
+1066,42,F,Technology,1,0,1,1
+1067,44,F,Manufacturing,0,0,0,0
+1068,47,F,Consulting,0,0,0,0
+1069,39,F,Consulting,0,1,0,0
+1070,50,F,BFSI,0,0,1,1
+1071,39,F,Technology,0,0,0,0
+1072,37,F,Broadcasting,0,0,0,0
+1073,54,F,Software Industry,0,1,0,0
+1074,48,F,Software Industry,0,0,0,0
+1075,44,F,Software Industry,0,0,0,0
+1076,41,F,Technology,0,0,0,0
+1077,41,F,Broadcasting,0,0,0,0
+1078,45,F,BFSI,0,0,0,0
+1079,46,F,Technology,1,0,0,0
+1080,64,F,Broadcasting,1,1,1,1
+1081,49,F,Technology,0,0,1,0
+1082,39,F,Food,0,0,0,0
+1083,40,F,Software Industry,0,0,0,0
+1084,71,F,Manufacturing,1,0,0,1
+1085,47,F,Technology,1,1,0,1
+1086,43,F,Health,0,0,0,0
+1087,44,F,Technology,0,0,0,0
+1088,32,F,Transport,0,1,0,1
+1089,52,F,Technology,1,0,1,1
+1090,43,F,Technology,1,0,1,1
+1091,44,F,Consulting,0,0,0,0
+1092,43,F,Software Industry,0,1,0,1
+1093,42,F,Technology,0,0,0,0
+1094,50,F,Real Estate,0,0,0,0
+1095,69,F,Manufacturing,0,0,0,0
+1096,41,F,BFSI,0,0,0,0
+1097,50,F,Transport,1,1,1,0
+1098,42,F,Technology,0,0,0,0
+1099,40,F,Retail,0,0,0,1
+1100,69,F,Education,0,0,0,0
+1101,38,F,Software Industry,0,0,0,0
+1102,44,F,Consulting,0,0,0,0
+1103,38,F,Education,1,0,1,0
+1104,35,F,Technology,1,1,1,1
+1105,40,F,Technology,0,0,0,0
+1106,47,F,Education,0,0,0,0
+1107,45,F,Technology,0,0,0,0
+1108,41,F,Education,1,0,1,1
+1109,44,F,BFSI,0,1,1,1
+1110,43,F,Health,0,0,0,0
+1111,51,F,Consulting,0,0,0,0
+1112,44,F,Software Industry,0,1,0,0
+1113,42,F,Retail,0,0,0,1
+1114,46,F,Technology,0,0,0,0
+1115,45,F,Consulting,0,0,0,0
+1116,72,F,Consulting,0,0,0,0
+1117,36,F,Broadcasting,0,0,0,0
+1118,45,F,Manufacturing,0,0,1,0
+1119,45,F,Manufacturing,0,0,0,0
+1120,36,F,Technology,0,0,0,0
+1121,44,F,Education,0,0,0,0
+1122,48,F,Broadcasting,0,0,0,0
+1123,42,F,Technology,1,1,1,0
+1124,34,F,Technology,0,0,0,0
+1125,49,F,Food,0,0,0,0
+1126,41,F,Technology,0,0,0,0
+1127,37,F,Software Industry,0,0,0,0
+1128,73,F,Retail,0,0,0,0
+1129,46,F,Consulting,1,1,1,0
+1130,59,F,Technology,1,0,1,1
+1131,43,F,Education,1,0,1,1
+1132,38,F,Education,0,0,0,0
+1133,47,F,Education,0,0,0,0
+1134,36,F,Telecom,0,1,0,0
+1135,58,F,Technology,0,0,0,0
+1136,39,F,Manufacturing,0,0,0,1
+1137,50,F,Retail,0,0,0,0
+1138,41,F,Retail,0,0,0,0
+1139,46,F,Software Industry,0,0,0,0
+1140,51,F,Technology,1,0,1,0
+1141,45,F,BFSI,1,0,1,1
+1142,43,F,Technology,0,0,0,0
+1143,47,F,Software Industry,0,0,0,0
+1144,41,F,Consulting,0,0,1,0
+1145,50,F,Real Estate,0,0,0,0
+1146,43,F,Health,0,0,0,0
+1147,49,F,Consulting,0,0,0,0
+1148,39,F,Technology,1,1,0,0
+1149,46,F,Education,0,0,0,0
+1150,40,F,Software Industry,0,0,0,0
+1151,41,F,Software Industry,1,0,1,1
+1152,38,F,Software Industry,0,0,0,0
+1153,51,F,Technology,0,0,0,0
+1154,44,F,BFSI,1,0,1,0
+1155,45,F,Technology,0,0,0,1
+1156,43,F,BFSI,0,0,0,0
+1157,40,F,Manufacturing,0,0,0,0
+1158,47,F,Technology,0,1,0,1
+1159,49,F,Consulting,0,0,0,0
+1160,42,F,Software Industry,1,0,1,0
+1161,41,F,Food,0,0,0,0
+1162,41,F,Software Industry,1,0,1,0
+1163,71,F,Consulting,0,1,0,0
+1164,45,F,Health,0,0,0,0
+1165,41,F,Technology,0,0,0,0
+1166,57,F,Manufacturing,0,0,0,0
+1167,44,F,BFSI,0,1,1,1
+1168,42,F,Education,1,0,1,1
+1169,48,F,Software Industry,0,0,0,1
+1170,43,F,Health,1,1,0,1
+1171,43,F,Retail,0,0,0,0
+1172,72,F,Technology,0,0,0,0
+1173,45,F,Health,1,0,0,0
+1174,41,F,Retail,1,0,1,1
+1175,41,F,Manufacturing,0,0,0,0
+1176,40,F,Consulting,1,1,1,1
+1177,54,F,Education,1,0,0,0
+1178,44,F,Technology,0,0,0,0
+1179,39,F,Health,0,0,0,0
+1180,42,F,Consulting,0,0,0,0
+1181,41,F,Software Industry,0,0,0,0
+1182,43,F,Technology,0,0,0,0
+1183,44,F,Software Industry,0,0,0,0
+1184,51,F,BFSI,0,0,0,0
+1185,41,F,Software Industry,0,0,0,0
+1186,59,F,Consulting,0,1,1,1
+1187,41,F,Retail,0,0,0,0
+1188,45,F,Technology,0,0,0,0
+1189,37,F,Manufacturing,0,0,0,0
+1190,50,F,Education,0,0,0,0
+1191,42,F,Technology,0,0,0,0
+1192,44,F,Technology,0,0,0,0
+1193,42,F,Software Industry,0,0,0,0
+1194,49,F,Consulting,0,0,0,0
+1195,42,F,Retail,0,0,0,0
+1196,41,F,Health,0,0,0,0
+1197,45,F,Technology,0,0,0,0
+1198,49,F,Telecom,0,0,0,0
+1199,48,F,Education,1,1,0,1
+1200,41,F,Technology,0,0,0,0
+1201,74,F,Technology,0,0,0,0
+1202,39,F,Consulting,0,1,0,0
+1203,38,F,Education,0,0,0,0
+1204,40,F,Manufacturing,0,0,0,0
+1205,45,F,BFSI,0,0,1,1
+1206,46,F,Telecom,0,0,0,0
+1207,48,F,Education,0,0,0,0
+1208,38,F,Consulting,0,1,0,0
+1209,49,F,Real Estate,0,0,0,0
+1210,44,F,Consulting,0,0,0,0
+1211,44,F,BFSI,0,0,0,0
+1212,51,F,Telecom,0,0,0,0
+1213,72,F,Technology,0,0,0,0
+1214,52,F,Food,0,1,0,0
+1215,39,F,Software Industry,0,0,0,0
+1216,52,F,Technology,0,0,0,0
+1217,43,F,Consulting,1,1,0,1
+1218,44,F,Consulting,0,0,0,0
+1219,46,F,Technology,1,0,1,1
+1220,41,F,Transport,0,0,1,1
+1221,44,F,Manufacturing,0,0,0,0
+1222,43,F,Education,0,0,0,0
+1223,74,F,Transport,0,0,0,0
+1224,45,F,Retail,0,0,1,0
+1225,42,F,Technology,0,0,0,0
+1226,42,F,Technology,0,0,0,0
+1227,46,F,Software Industry,1,0,1,1
+1228,42,F,Software Industry,1,1,1,1
+1229,42,F,Education,0,0,1,0
+1230,49,F,Consulting,0,1,0,0
+1231,40,F,Software Industry,1,1,0,1
+1232,46,F,Technology,0,0,0,0
+1233,51,F,Consulting,1,0,1,1
+1234,49,F,Consulting,0,0,0,0
+1235,39,F,Consulting,0,0,0,0
+1236,48,F,Technology,0,0,0,0
+1237,34,F,Software Industry,0,0,0,0
+1238,47,F,Consulting,0,0,0,0
+1239,47,F,Education,0,1,1,1
+1240,43,F,Consulting,0,0,0,0
+1241,41,F,Food,0,1,1,1
+1242,40,F,Manufacturing,0,0,0,0
+1243,74,F,Technology,0,0,0,0
+1244,71,F,Technology,0,0,0,0
+1245,50,F,Software Industry,1,0,1,1
+1246,42,F,Health,0,0,0,1
+1247,44,F,Consulting,0,0,0,0
+1248,45,F,Technology,0,0,1,1
+1249,41,F,Consulting,0,1,1,1
+1250,46,F,Technology,0,0,0,0
+1251,72,F,Manufacturing,0,0,0,0
+1252,44,F,Manufacturing,1,1,1,0
+1253,41,F,Education,1,1,1,0
+1254,42,F,Software Industry,0,0,0,0
+1255,43,F,Software Industry,1,1,0,0
+1256,47,F,Telecom,0,0,0,0
+1257,48,F,Software Industry,0,0,0,0
+1258,43,F,Technology,1,1,0,0
+1259,41,F,Software Industry,1,1,1,0
+1260,40,F,Health,0,0,0,0
+1261,47,F,Health,0,0,0,0
+1262,46,F,Broadcasting,0,0,0,0
+1263,41,F,Technology,0,0,1,1
+1264,42,F,BFSI,0,0,0,0
+1265,44,F,Technology,0,1,0,0
+1266,49,F,Technology,0,0,0,0
+1267,53,F,Education,0,1,0,0
+1268,46,F,Consulting,0,0,0,0
+1269,40,F,Telecom,0,0,0,0
+1270,41,F,BFSI,1,0,1,1
+1271,41,F,Software Industry,1,1,0,1
+1272,46,F,Technology,0,0,0,0
+1273,42,F,Software Industry,0,0,0,0
+1274,34,F,BFSI,0,0,1,0
+1275,39,F,BFSI,0,1,1,1
+1276,43,F,Telecom,0,0,0,0
+1277,43,F,Technology,0,0,0,0
+1278,44,F,BFSI,0,1,1,1
+1279,43,F,BFSI,0,0,0,0
+1280,43,F,Technology,0,1,0,1
+1281,40,F,Consulting,0,0,0,0
+1282,53,F,Consulting,0,0,0,0
+1283,44,F,Software Industry,0,0,0,0
+1284,39,F,Consulting,0,1,0,0
+1285,43,F,Consulting,0,0,0,0
+1286,49,F,Technology,0,0,0,0
+1287,46,F,Retail,0,0,0,0
+1288,38,F,Consulting,0,0,0,0
+1289,44,F,Real Estate,0,1,0,1
+1290,46,F,Technology,1,0,1,1
+1291,43,F,Technology,0,0,0,0
+1292,41,F,Technology,0,0,0,0
+1293,41,F,Consulting,0,0,0,0
+1294,48,F,Software Industry,0,0,0,0
+1295,42,F,Technology,0,0,0,1
+1296,41,F,Software Industry,1,0,0,1
+1297,42,F,Health,0,0,0,0
+1298,45,F,Technology,1,0,1,1
+1299,47,F,Broadcasting,0,1,0,1
+1300,40,F,BFSI,0,0,0,1
+1301,45,F,BFSI,0,0,0,0
+1302,38,F,Technology,0,0,0,0
+1303,45,F,Software Industry,1,1,0,1
+1304,48,F,Technology,0,0,0,1
+1305,42,F,Software Industry,0,0,0,0
+1306,41,F,Technology,0,0,0,1
+1307,42,F,Software Industry,0,0,0,0
+1308,37,F,Telecom,0,0,0,0
+1309,44,F,Software Industry,0,0,0,0
+1310,50,F,Consulting,1,0,1,1
+1311,41,F,Education,0,0,0,0
+1312,49,F,Food,0,0,0,0
+1313,39,F,Technology,1,1,0,0
+1314,42,F,Software Industry,0,0,0,0
+1315,42,F,Technology,0,0,0,0
+1316,40,F,Technology,0,0,0,0
+1317,41,F,Telecom,1,0,1,0
+1318,71,F,Technology,0,0,0,0
+1319,46,F,Retail,1,0,0,0
+1320,37,F,Manufacturing,0,0,0,0
+1321,43,F,BFSI,0,0,0,0
+1322,35,F,Consulting,1,1,1,1
+1323,37,F,Software Industry,0,0,0,0
+1324,44,F,Education,0,0,0,0
+1325,44,F,BFSI,0,0,0,0
+1326,38,F,Technology,0,0,0,0
+1327,41,F,Technology,0,0,0,0
+1328,50,F,Technology,0,0,0,0
+1329,43,F,Manufacturing,0,0,0,0
+1330,34,F,Transport,0,0,0,0
+1331,49,F,Education,0,0,0,0
+1332,46,F,Health,0,0,0,0
+1333,50,F,Retail,0,0,0,0
+1334,42,F,Technology,0,1,0,1
+1335,44,F,Software Industry,0,1,0,1
+1336,58,F,Software Industry,0,0,0,0
+1337,36,F,Broadcasting,0,0,0,0
+1338,48,F,Software Industry,0,0,0,0
+1339,45,F,Education,0,0,0,0
+1340,47,F,Manufacturing,0,1,0,0
+1341,43,F,Food,0,1,1,0
+1342,44,F,Software Industry,0,1,0,0
+1343,47,F,Education,0,0,0,0
+1344,40,F,Consulting,0,1,0,0
+1345,38,F,Technology,0,1,1,1
+1346,41,F,Consulting,1,1,1,0
+1347,43,F,Consulting,1,1,1,1
+1348,45,F,Technology,0,0,0,0
+1349,52,F,Technology,0,0,0,0
+1350,42,F,Technology,0,0,0,0
+1351,58,F,Food,0,0,1,0
+1352,39,F,Consulting,1,0,0,0
+1353,49,F,Consulting,0,0,0,0
+1354,41,F,Technology,0,0,0,0
+1355,41,F,Consulting,0,0,0,0
+1356,41,F,Real Estate,0,0,0,0
+1357,73,F,Manufacturing,0,0,0,0
+1358,43,F,Education,0,0,0,0
+1359,43,F,Software Industry,0,0,0,0
+1360,46,F,Technology,0,0,0,0
+1361,42,F,Technology,0,0,0,0
+1362,39,F,Consulting,0,0,0,0
+1363,46,F,Software Industry,0,0,0,0
+1364,40,F,BFSI,0,0,0,0
+1365,44,F,Retail,0,1,1,1
+1366,53,F,Software Industry,0,0,0,0
+1367,74,F,BFSI,0,0,0,0
+1368,43,F,Consulting,0,1,0,1
+1369,45,F,Software Industry,0,0,0,0
+1370,51,F,Technology,0,0,0,0
+1371,45,F,Telecom,0,0,0,0
+1372,42,F,Education,0,0,0,0
+1373,40,F,Software Industry,0,0,0,0
+1374,58,F,Software Industry,1,1,1,0
+1375,41,F,Consulting,1,0,1,1
+1376,40,F,Technology,1,0,0,0
+1377,46,F,Technology,0,0,0,0
+1378,37,F,Broadcasting,0,1,0,1
+1379,47,F,Consulting,0,0,0,0
+1380,45,F,Technology,1,0,1,0
+1381,46,F,Technology,0,1,1,0
+1382,43,F,Broadcasting,0,0,0,0
+1383,50,F,Technology,0,0,0,0
+1384,53,F,Technology,0,0,0,0
+1385,45,F,Education,0,1,1,1
+1386,44,F,Food,0,0,0,1
+1387,50,F,Consulting,0,0,0,0
+1388,42,F,Technology,0,0,0,0
+1389,46,F,Software Industry,1,0,1,0
+1390,50,F,Transport,0,0,0,0
+1391,46,F,Technology,0,0,0,0
+1392,39,F,Consulting,0,1,0,1
+1393,44,F,Health,0,0,1,1
+1394,53,F,Technology,0,0,0,0
+1395,43,F,Consulting,0,0,0,0
+1396,45,F,Manufacturing,0,0,0,0
+1397,41,F,Consulting,0,0,0,1
+1398,40,F,Technology,0,1,1,0
+1399,45,F,Education,0,0,0,0
+1400,44,F,Education,0,0,1,0
+1401,47,F,Technology,0,0,0,0
+1402,50,F,Health,0,0,0,0
+1403,48,F,Technology,0,0,0,0
+1404,43,F,Manufacturing,0,0,0,0
+1405,46,F,BFSI,0,0,0,0
+1406,46,F,Software Industry,0,0,0,0
+1407,51,F,Technology,0,0,0,0
+1408,47,F,Consulting,1,1,0,0
+1409,49,F,Consulting,0,0,0,0
+1410,74,F,Health,0,0,0,0
+1411,46,F,Broadcasting,1,0,1,0
+1412,47,F,Manufacturing,0,0,0,0
+1413,40,F,BFSI,1,0,0,1
+1414,39,F,Education,0,0,0,0
+1415,42,F,Technology,0,0,0,0
+1416,44,F,Retail,0,0,0,0
+1417,45,F,Manufacturing,0,0,0,0
+1418,47,F,BFSI,0,1,1,0
+1419,43,F,Technology,0,0,0,0
+1420,47,F,Consulting,0,1,0,0
+1421,45,F,Technology,0,0,0,0
+1422,42,F,Software Industry,0,0,1,1
+1423,41,F,Consulting,1,0,1,0
+1424,42,F,Technology,0,0,0,0
+1425,71,F,Technology,1,0,1,0
+1426,42,F,Technology,1,0,1,1
+1427,49,F,Health,0,0,0,0
+1428,55,F,Technology,0,0,0,0
+1429,43,F,Technology,0,0,0,0
+1430,41,F,Technology,0,0,0,1
+1431,43,F,Health,0,0,0,0
+1432,75,F,Technology,0,0,0,0
+1433,40,F,BFSI,0,0,0,0
+1434,45,F,Manufacturing,0,0,0,0
+1435,45,F,Technology,0,0,0,0
+1436,74,F,Manufacturing,0,0,0,0
+1437,37,F,Consulting,1,1,0,0
+1438,44,F,Consulting,0,0,0,0
+1439,44,F,Technology,0,1,0,0
+1440,47,F,Software Industry,0,1,0,0
+1441,37,F,Education,1,1,1,1
+1442,50,F,Technology,0,0,0,0
+1443,42,F,Consulting,1,0,1,0
+1444,47,F,Health,0,0,0,1
+1445,41,F,Technology,0,0,0,0
+1446,46,F,Real Estate,0,0,0,0
+1447,48,F,Technology,0,0,0,0
+1448,43,F,Technology,0,1,0,0
+1449,49,F,Technology,0,1,0,1
+1450,39,F,Consulting,0,0,0,0
+1451,49,F,Real Estate,0,0,0,1
+1452,73,F,Consulting,0,0,0,0
+1453,43,F,Software Industry,0,0,0,0
+1454,53,F,BFSI,0,0,0,0
+1455,43,F,Consulting,0,1,0,1
+1456,42,F,Real Estate,0,0,0,0
+1457,41,F,Consulting,0,0,0,0
+1458,46,F,Retail,0,0,0,0
+1459,37,F,Retail,0,0,0,0
+1460,56,F,Consulting,0,0,0,0
+1461,43,F,Telecom,0,1,0,0
+1462,48,F,Manufacturing,0,0,0,0
+1463,41,F,Software Industry,0,0,0,0
+1464,48,F,Broadcasting,0,0,0,0
+1465,44,F,Real Estate,0,0,0,0
+1466,46,F,BFSI,0,0,0,0
+1467,35,F,Health,0,0,0,0
+1468,39,F,Education,0,0,0,0
+1469,40,F,Education,0,1,0,0
+1470,41,F,Retail,1,0,1,1
+1471,34,F,Transport,0,0,0,0
+1472,45,F,Technology,0,0,0,0
+1473,41,F,BFSI,0,0,0,0
+1474,41,F,Technology,1,0,1,1
+1475,58,F,Technology,0,0,0,0
+1476,39,F,Education,0,0,0,0
+1477,43,F,Transport,0,1,0,1
+1478,41,F,Software Industry,0,0,0,0
+1479,40,F,Education,0,0,0,0
+1480,44,F,Health,0,0,0,0
+1481,41,F,Technology,0,0,0,0
+1482,46,F,Manufacturing,0,0,1,1
+1483,36,F,Software Industry,0,0,0,0
+1484,51,F,Software Industry,1,0,0,1
+1485,52,F,Education,0,0,1,1
+1486,47,F,BFSI,0,0,0,0
+1487,41,F,Consulting,0,0,0,0
+1488,47,F,Consulting,0,0,0,0
+1489,42,F,Health,0,0,0,0
+1490,43,F,Software Industry,0,0,0,0
+1491,39,F,Software Industry,0,1,0,0
+1492,73,F,Consulting,0,0,0,0
+1493,42,F,Retail,0,0,0,0
+1494,46,F,Technology,1,0,1,1
+1495,59,F,Technology,0,0,0,0
+1496,74,F,Software Industry,0,0,0,0
+1497,47,F,Broadcasting,0,0,0,0
+1498,42,F,Consulting,1,0,1,1
+1499,46,F,Technology,0,0,0,0
+1500,39,F,Technology,0,0,1,0
+1501,40,F,Technology,1,1,0,0
+1502,36,F,Telecom,0,0,0,0
+1503,43,F,Education,0,0,0,0
+1504,49,F,BFSI,0,0,0,0
+1505,55,F,Technology,0,0,0,0
+1506,41,F,Manufacturing,0,0,0,0
+1507,47,F,Broadcasting,0,0,0,0
+1508,51,F,Education,0,0,0,0
+1509,44,F,Telecom,0,0,0,0
+1510,51,F,Consulting,0,0,0,0
+1511,42,F,BFSI,0,0,0,0
+1512,43,F,Consulting,0,0,0,0
+1513,38,F,Education,0,0,0,0
+1514,47,F,Software Industry,0,0,0,0
+1515,70,F,Manufacturing,0,0,0,0
+1516,61,F,Broadcasting,0,0,1,0
+1517,42,F,Manufacturing,0,0,0,0
+1518,43,F,Software Industry,0,1,1,1
+1519,43,F,Technology,0,0,0,0
+1520,46,F,Transport,0,0,0,0
+1521,57,F,Retail,0,0,1,1
+1522,49,F,Software Industry,0,0,0,0
+1523,48,F,Technology,0,0,0,0
+1524,44,F,Retail,0,0,0,0
+1525,45,F,Technology,0,0,0,0
+1526,38,F,Consulting,0,0,0,0
+1527,45,F,Technology,0,0,0,0
+1528,58,F,Telecom,0,0,1,1
+1529,39,F,Technology,0,1,0,1
+1530,44,F,Education,0,1,0,0
+1531,53,F,Real Estate,0,1,0,1
+1532,40,F,Software Industry,0,0,0,0
+1533,46,F,Software Industry,0,0,0,0
+1534,38,F,Technology,1,1,1,1
+1535,46,F,BFSI,0,0,0,0
+1536,45,F,Manufacturing,0,0,0,0
+1537,44,F,Health,0,0,0,0
+1538,38,F,BFSI,0,0,0,0
+1539,48,F,Consulting,0,0,0,0
+1540,42,F,Technology,0,0,0,0
+1541,40,F,Software Industry,0,0,0,0
+1542,44,F,Education,0,0,0,0
+1543,42,F,Consulting,0,0,1,0
+1544,42,F,Technology,0,0,1,1
+1545,40,F,Software Industry,0,0,0,0
+1546,44,F,Technology,0,0,0,0
+1547,45,F,Consulting,1,0,1,0
+1548,42,F,Technology,0,0,1,1
+1549,55,F,Technology,0,0,0,0
+1550,41,F,Software Industry,0,0,0,0
+1551,40,F,BFSI,1,0,0,0
+1552,71,F,BFSI,0,0,0,0
+1553,43,F,Technology,0,0,0,0
+1554,36,F,Education,0,1,0,0
+1555,44,F,Software Industry,1,0,0,1
+1556,41,F,Food,0,0,0,0
+1557,44,F,Software Industry,0,0,0,0
+1558,40,F,Technology,0,0,0,0
+1559,45,F,BFSI,0,0,0,0
+1560,41,F,Health,0,0,0,0
+1561,42,F,Health,0,0,0,0
+1562,44,F,Technology,0,0,0,0
+1563,74,F,Technology,0,0,0,0
+1564,39,F,Consulting,0,0,0,0
+1565,42,F,Consulting,0,0,0,0
+1566,41,F,Technology,0,0,0,0
+1567,42,F,Education,1,0,1,0
+1568,49,F,Broadcasting,0,0,0,0
+1569,46,F,Transport,0,0,0,0
+1570,36,F,Manufacturing,0,0,0,0
+1571,44,F,Technology,1,1,1,0
+1572,44,F,Consulting,0,0,0,0
+1573,42,F,Consulting,0,0,0,0
+1574,47,F,Consulting,0,1,0,1
+1575,40,F,Education,0,0,0,0
+1576,73,F,BFSI,0,0,0,0
+1577,52,F,Technology,0,0,0,0
+1578,74,F,Technology,0,0,0,0
+1579,45,F,Health,0,0,0,0
+1580,43,F,Consulting,0,1,0,0
+1581,44,F,Health,0,0,0,0
+1582,39,F,Consulting,0,0,0,0
+1583,73,F,Technology,0,0,0,0
+1584,43,F,Broadcasting,0,0,0,0
+1585,38,F,Consulting,0,0,1,1
+1586,39,F,Software Industry,0,0,0,1
+1587,41,F,Technology,1,0,1,1
+1588,41,F,Education,0,0,0,0
+1589,40,F,Software Industry,0,0,0,0
+1590,39,F,Software Industry,0,0,0,0
+1591,40,F,Education,0,0,0,0
+1592,48,F,Health,1,1,0,1
+1593,47,F,Software Industry,0,1,0,1
+1594,49,F,BFSI,0,1,0,0
+1595,42,F,Education,1,0,1,1
+1596,41,F,Education,0,0,0,1
+1597,40,F,Technology,0,1,0,0
+1598,44,F,Manufacturing,0,0,0,0
+1599,44,F,Manufacturing,0,0,0,0
+1600,44,F,Technology,0,0,0,0
+1601,58,F,Consulting,1,0,1,1
+1602,44,F,Technology,0,0,0,0
+1603,43,F,Education,0,0,0,0
+1604,52,F,Software Industry,1,1,0,0
+1605,50,F,Manufacturing,1,0,1,0
+1606,50,F,Health,0,0,1,1
+1607,46,F,BFSI,0,0,0,0
+1608,38,F,Technology,0,0,0,0
+1609,49,F,Consulting,0,0,0,0
+1610,46,F,Technology,1,1,1,0
+1611,45,F,Technology,0,0,0,0
+1612,43,F,Consulting,0,1,0,0
+1613,42,F,Software Industry,0,0,0,0
+1614,46,F,Software Industry,0,0,0,0
+1615,40,F,Software Industry,1,0,0,0
+1616,75,F,Technology,0,0,0,0
+1617,55,F,Education,0,0,0,0
+1618,50,F,Technology,1,1,1,1
+1619,45,F,Technology,1,0,0,0
+1620,40,F,Software Industry,0,0,0,0
+1621,48,F,Consulting,0,1,1,0
+1622,43,F,Software Industry,0,0,0,1
+1623,57,F,Software Industry,0,0,0,0
+1624,41,F,Consulting,0,0,0,0
+1625,49,F,Technology,0,0,0,0
+1626,38,F,Health,1,1,1,1
+1627,41,F,Technology,0,0,0,0
+1628,44,F,Consulting,0,0,0,0
+1629,42,F,BFSI,0,0,1,0
+1630,38,F,Education,0,0,0,0
+1631,43,F,BFSI,0,0,0,0
+1632,50,F,Consulting,0,0,0,0
+1633,43,F,Software Industry,0,1,0,0
+1634,43,F,Manufacturing,0,0,0,0
+1635,43,F,Health,0,0,0,0
+1636,40,F,Consulting,0,0,0,0
+1637,44,F,BFSI,0,0,0,0
+1638,44,F,Consulting,0,0,0,0
+1639,39,F,Software Industry,0,0,0,0
+1640,43,F,Technology,0,1,0,1
+1641,41,F,BFSI,0,0,1,1
+1642,44,F,Manufacturing,0,0,0,0
+1643,50,F,Consulting,0,0,0,0
+1644,51,F,Technology,0,0,0,0
+1645,39,F,Software Industry,0,0,0,0
+1646,46,F,Education,0,0,0,0
+1647,40,F,BFSI,0,0,0,0
+1648,47,F,Transport,0,0,0,0
+1649,43,F,Consulting,0,1,0,0
+1650,45,F,BFSI,0,0,0,0
+1651,43,F,Consulting,1,1,1,1
+1652,44,F,Health,0,0,0,0
+1653,43,F,Retail,0,0,0,0
+1654,47,F,Software Industry,0,1,0,1
+1655,49,F,Technology,0,1,1,0
+1656,42,F,Technology,0,0,0,0
+1657,39,F,Education,0,0,0,0
+1658,47,F,Technology,0,1,1,1
+1659,39,F,Technology,0,0,0,0
+1660,41,F,Education,1,0,0,0
+1661,38,F,Technology,0,1,0,0
+1662,42,F,Technology,0,0,0,0
+1663,44,F,Retail,0,0,0,0
+1664,40,F,Consulting,0,0,0,0
+1665,41,F,Software Industry,1,1,1,1
+1666,40,F,Consulting,1,0,0,0
+1667,46,F,Consulting,1,0,1,0
+1668,46,F,Technology,0,1,0,1
+1669,41,F,Technology,0,0,0,0
+1670,73,F,Education,0,0,0,0
+1671,45,F,Health,0,0,0,0
+1672,41,F,Education,0,1,1,1
+1673,72,F,Technology,0,0,0,0
+1674,45,F,Broadcasting,1,0,1,0
+1675,44,F,Technology,0,0,0,0
+1676,37,F,Broadcasting,0,1,0,0
+1677,45,F,Consulting,0,0,1,0
+1678,47,F,Software Industry,0,0,0,0
+1679,75,F,Broadcasting,0,0,0,0
+1680,44,F,Consulting,0,0,0,0
+1681,42,F,Software Industry,0,0,0,0
+1682,40,F,Health,0,0,0,0
+1683,47,F,Transport,0,0,0,0
+1684,41,F,BFSI,1,1,1,0
+1685,39,F,Education,0,0,0,0
+1686,71,F,Technology,0,0,0,0
+1687,45,F,BFSI,0,0,0,0
+1688,45,F,Technology,0,0,0,0
+1689,44,F,BFSI,0,0,0,0
+1690,40,F,Technology,0,0,0,0
+1691,38,F,Software Industry,0,0,0,0
+1692,55,F,Consulting,0,0,0,0
+1693,48,F,Technology,0,0,0,0
+1694,43,F,Consulting,0,0,0,0
+1695,39,F,Consulting,0,1,1,1
+1696,41,F,Consulting,0,0,0,0
+1697,37,F,Consulting,0,1,0,0
+1698,47,F,Software Industry,0,1,0,1
+1699,36,F,Food,0,1,1,0
+1700,40,F,Technology,0,0,0,0
+1701,72,F,Manufacturing,0,0,0,0
+1702,38,F,Technology,0,0,0,0
+1703,47,F,Telecom,0,1,1,0
+1704,39,F,Software Industry,1,1,1,0
+1705,36,F,BFSI,0,1,0,0
+1706,45,F,Health,0,0,0,0
+1707,45,F,Manufacturing,0,0,0,0
+1708,49,F,Manufacturing,0,0,0,0
+1709,40,F,Health,1,0,0,0
+1710,43,F,Technology,0,0,0,0
+1711,55,F,Technology,0,1,0,0
+1712,42,F,BFSI,0,0,0,0
+1713,40,F,Manufacturing,0,0,0,0
+1714,43,F,Software Industry,0,0,0,0
+1715,39,F,Education,1,1,1,1
+1716,39,F,Software Industry,0,0,0,0
+1717,38,F,Software Industry,0,0,0,0
+1718,36,F,Software Industry,0,0,0,0
+1719,45,F,Technology,1,0,0,0
+1720,43,F,Technology,0,0,0,0
+1721,40,F,Software Industry,0,0,0,0
+1722,54,F,Consulting,0,0,0,0
+1723,39,F,Real Estate,0,0,0,0
+1724,58,F,Broadcasting,0,0,0,1
+1725,70,F,Technology,1,1,1,1
+1726,50,F,Technology,1,1,1,1
+1727,70,F,Education,0,0,0,0
+1728,41,F,Education,1,0,1,1
+1729,43,F,Consulting,0,0,0,0
+1730,39,F,Technology,0,0,0,0
+1731,43,F,Technology,0,0,0,0
+1732,46,F,Real Estate,0,0,0,0
+1733,47,F,Health,0,1,0,0
+1734,42,F,Technology,0,0,0,0
+1735,46,F,Software Industry,1,0,1,0
+1736,42,F,Technology,0,0,0,0
+1737,38,F,Education,1,1,1,1
+1738,57,F,Software Industry,0,1,0,0
+1739,45,F,Technology,1,1,1,0
+1740,58,F,Software Industry,0,0,0,0
+1741,46,F,Manufacturing,1,1,0,1
+1742,45,F,Technology,1,0,1,1
+1743,47,F,Retail,0,0,0,0
+1744,43,F,Transport,1,1,0,0
+1745,49,F,Transport,0,1,0,0
+1746,44,F,Consulting,0,0,0,0
+1747,39,F,Real Estate,0,0,0,0
+1748,39,F,Health,1,1,1,1
+1749,42,F,Technology,0,0,0,0
+1750,45,F,Consulting,1,1,1,1
+1751,44,F,Manufacturing,0,0,0,0
+1752,42,F,Real Estate,1,0,1,1
+1753,43,F,Broadcasting,1,1,1,1
+1754,36,F,BFSI,0,1,0,1
+1755,37,F,Real Estate,0,0,0,0
+1756,42,F,Consulting,0,0,0,0
+1757,40,F,Education,1,1,1,1
+1758,39,F,Education,0,0,0,0
+1759,56,F,Software Industry,0,0,0,0
+1760,45,F,BFSI,0,0,0,0
+1761,42,F,Consulting,0,0,0,0
+1762,53,F,Technology,0,0,0,0
+1763,40,F,Consulting,0,0,0,0
+1764,49,F,Consulting,0,0,0,0
+1765,42,F,Software Industry,0,0,1,1
+1766,62,F,Health,0,0,0,0
+1767,50,F,Real Estate,0,0,0,0
+1768,40,F,Software Industry,0,1,1,1
+1769,41,F,Technology,0,0,0,0
+1770,47,F,Consulting,0,0,0,0
+1771,39,F,BFSI,0,1,0,0
+1772,72,F,Technology,0,0,0,0
+1773,46,F,Technology,0,0,0,0
+1774,42,F,Technology,0,0,0,0
+1775,41,F,Retail,0,0,0,0
+1776,41,F,Manufacturing,0,0,0,0
+1777,50,F,Technology,1,0,1,1
+1778,44,F,Technology,0,0,0,0
+1779,47,F,Education,0,1,1,0
+1780,39,F,Consulting,0,0,0,0
+1781,42,F,Education,0,0,0,0
+1782,45,F,Manufacturing,0,0,0,0
+1783,49,F,Retail,0,0,0,0
+1784,45,F,Manufacturing,1,0,1,0
+1785,48,F,Consulting,0,0,0,0
+1786,41,F,Consulting,1,1,1,0
+1787,41,F,Software Industry,0,1,0,1
+1788,41,F,Technology,1,1,1,0
+1789,37,F,Telecom,0,1,0,1
+1790,40,F,Technology,0,1,0,0
+1791,42,F,Retail,0,0,0,0
+1792,43,F,Software Industry,0,0,0,0
+1793,46,F,Technology,0,0,0,0
+1794,40,F,Education,0,0,0,0
+1795,57,F,Manufacturing,0,1,1,1
+1796,48,F,BFSI,0,1,0,1
+1797,47,F,Manufacturing,0,0,0,0
+1798,49,F,Technology,0,0,0,0
+1799,40,F,Manufacturing,0,1,0,0
+1800,37,F,Broadcasting,0,0,0,0
+1801,39,F,Broadcasting,0,0,1,0
+1802,44,F,Technology,0,0,0,0
+1803,38,F,Retail,1,1,0,1
+1804,42,F,Education,0,0,1,0
+1805,37,F,Technology,0,0,0,0
+1806,45,F,Health,0,0,0,0
+1807,45,F,Consulting,0,0,0,0
+1808,40,F,Consulting,0,0,0,0
+1809,38,F,Transport,0,0,0,0
+1810,43,F,Transport,0,0,0,0
+1811,42,F,Manufacturing,0,0,0,0
+1812,41,F,Technology,0,0,0,0
+1813,48,F,Technology,0,0,0,0
+1814,43,F,BFSI,1,1,0,0
+1815,53,F,Software Industry,0,0,1,0
+1816,45,F,Manufacturing,0,0,0,0
+1817,46,F,Technology,0,0,0,0
+1818,47,F,BFSI,0,1,0,1
+1819,37,F,Food,0,0,0,0
+1820,49,F,Software Industry,0,0,0,0
+1821,45,F,Broadcasting,0,0,0,0
+1822,39,F,Software Industry,0,0,0,0
+1823,39,F,Technology,0,0,0,0
+1824,52,F,BFSI,1,1,0,0
+1825,50,F,Technology,0,0,0,0
+1826,54,F,BFSI,1,1,1,0
+1827,48,F,BFSI,0,0,0,0
+1828,44,F,Technology,0,1,0,0
+1829,46,F,Software Industry,0,0,0,0
+1830,43,F,Education,1,1,0,1
+1831,43,F,Consulting,0,0,0,0
+1832,45,F,Consulting,0,0,1,0
+1833,40,F,Software Industry,0,0,0,0
+1834,41,F,Technology,0,0,0,0
+1835,47,F,Consulting,0,1,0,1
+1836,38,F,Education,0,1,1,1
+1837,43,F,Technology,0,0,0,0
+1838,43,F,Software Industry,0,0,0,0
+1839,43,F,Real Estate,0,1,0,1
+1840,41,F,Technology,1,0,0,0
+1841,41,F,Consulting,0,0,0,0
+1842,41,F,Technology,0,0,0,0
+1843,41,F,Technology,0,0,0,0
+1844,74,F,Consulting,0,0,0,0
+1845,74,F,Consulting,0,0,0,0
+1846,52,F,Education,0,1,0,0
+1847,43,F,Consulting,0,0,0,0
+1848,40,F,Consulting,0,0,0,0
+1849,72,F,Consulting,0,0,0,0
+1850,43,F,Technology,0,1,0,1
+1851,44,F,Technology,0,0,0,0
+1852,44,F,Consulting,1,0,1,0
+1853,38,F,Technology,0,0,0,0
+1854,43,F,Health,0,0,0,0
+1855,41,F,Consulting,0,0,0,0
+1856,70,F,BFSI,0,0,0,0
+1857,45,F,Software Industry,1,1,1,1
+1858,51,F,Technology,0,0,0,0
+1859,43,F,Technology,0,0,0,0
+1860,43,F,Software Industry,0,0,0,0
+1861,41,F,Education,0,0,0,0
+1862,44,F,Telecom,0,0,0,0
+1863,40,F,BFSI,1,1,1,1
+1864,38,F,Technology,0,0,0,0
+1865,41,F,Technology,1,0,1,1
+1866,41,F,Consulting,0,0,0,0
+1867,39,F,Technology,0,0,0,0
+1868,40,F,Consulting,0,0,0,0
+1869,47,F,BFSI,0,0,0,0
+1870,47,F,Consulting,0,0,0,0
+1871,45,F,Technology,0,0,0,0
+1872,52,F,Technology,1,0,1,1
+1873,46,F,Technology,0,0,0,0
+1874,47,F,Technology,0,1,0,0
+1875,42,F,Consulting,0,0,0,0
+1876,41,F,Real Estate,0,0,0,0
+1877,53,F,Retail,0,0,0,0
+1878,52,F,Software Industry,0,0,0,0
+1879,44,F,Technology,0,0,0,0
+1880,56,F,BFSI,0,1,0,1
+1881,46,F,Health,0,0,0,0
+1882,41,F,Technology,0,0,0,0
+1883,42,F,BFSI,1,0,0,0
+1884,73,F,Consulting,0,0,0,0
+1885,72,F,Technology,0,0,0,0
+1886,42,F,Manufacturing,0,0,0,0
+1887,43,F,Technology,0,1,0,0
+1888,37,F,Technology,0,0,0,0
+1889,43,F,Consulting,0,1,0,0
+1890,46,F,Technology,1,0,1,1
+1891,39,F,BFSI,0,0,0,0
+1892,42,F,Health,0,0,0,0
+1893,49,F,Transport,0,0,0,0
+1894,42,F,Education,1,0,1,1
+1895,44,F,Real Estate,0,0,0,0
+1896,46,F,Technology,1,1,1,1
+1897,41,F,Health,0,0,1,1
+1898,40,F,Technology,0,0,0,0
+1899,49,F,Food,0,0,0,0
+1900,44,F,Transport,0,0,0,0
+1901,41,F,Education,0,0,0,0
+1902,50,F,Education,0,0,0,0
+1903,45,F,Health,0,0,0,0
+1904,39,F,Software Industry,0,0,0,0
+1905,44,F,Education,0,0,0,0
+1906,40,F,Software Industry,0,0,0,0
+1907,40,F,Technology,0,1,0,0
+1908,46,F,Software Industry,0,0,1,1
+1909,44,F,Education,1,0,0,1
+1910,46,F,Real Estate,0,0,0,0
+1911,41,F,Consulting,0,0,0,0
+1912,42,F,Technology,0,0,0,0
+1913,72,F,Technology,0,0,0,0
+1914,71,F,Retail,0,0,0,0
+1915,52,F,BFSI,0,0,0,0
+1916,45,F,Software Industry,0,0,0,0
+1917,54,F,Telecom,0,0,0,0
+1918,51,F,Retail,1,0,1,0
+1919,39,F,Retail,0,0,0,0
+1920,45,F,BFSI,1,0,1,1
+1921,39,F,Technology,0,0,0,0
+1922,38,F,Software Industry,0,0,0,0
+1923,49,F,Technology,0,0,0,0
+1924,43,F,Food,0,0,0,0
+1925,49,F,Technology,0,0,0,0
+1926,56,F,Technology,0,0,0,0
+1927,39,F,Software Industry,0,0,0,0
+1928,38,F,Manufacturing,1,1,0,1
+1929,42,F,Transport,0,0,0,0
+1930,36,F,Health,0,0,0,0
+1931,43,F,Software Industry,0,1,0,1
+1932,48,F,BFSI,1,1,1,0
+1933,71,F,Technology,0,0,0,0
+1934,45,F,Retail,0,0,0,0
+1935,38,F,Transport,0,0,0,0
+1936,47,F,Consulting,0,0,0,0
+1937,48,F,Consulting,0,0,0,0
+1938,40,F,Technology,0,0,0,0
+1939,74,F,Technology,0,1,0,1
+1940,46,F,Software Industry,0,0,0,0
+1941,40,F,Technology,0,0,0,0
+1942,43,F,Broadcasting,0,1,0,1
+1943,51,F,BFSI,1,1,1,0
+1944,48,F,Consulting,0,0,0,0
+1945,44,F,Software Industry,0,0,0,0
+1946,47,F,Software Industry,1,1,0,0
+1947,45,F,Telecom,1,0,1,0
+1948,50,F,Consulting,0,0,0,0
+1949,43,F,Technology,0,0,0,0
+1950,48,F,BFSI,1,1,1,1
+1951,40,F,Technology,0,0,0,0
+1952,44,F,Software Industry,0,0,0,0
+1953,40,F,Health,1,1,1,1
+1954,49,F,Food,0,0,0,0
+1955,51,F,Technology,1,0,0,0
+1956,44,F,Technology,0,0,0,0
+1957,46,F,Consulting,0,0,1,0
+1958,43,F,Technology,1,1,1,0
+1959,42,F,BFSI,1,0,1,0
+1960,45,F,Technology,0,0,0,0
+1961,40,F,Software Industry,0,1,0,1
+1962,72,F,Technology,0,0,0,0
+1963,46,F,Consulting,0,0,0,0
+1964,57,F,Technology,0,0,1,0
+1965,44,F,Education,0,0,0,0
+1966,50,F,Technology,0,0,0,0
+1967,41,F,Technology,0,1,0,1
+1968,42,F,Consulting,0,0,0,0
+1969,38,F,Software Industry,1,0,1,0
+1970,36,F,Software Industry,0,1,0,0
+1971,41,F,Education,0,0,0,0
+1972,41,F,Consulting,0,0,0,0
+1973,72,F,BFSI,0,0,0,0
+1974,37,F,Technology,0,0,0,0
+1975,47,F,Technology,0,0,0,0
+1976,43,F,Technology,0,0,0,0
+1977,54,F,Technology,0,0,0,0
+1978,40,F,Education,0,0,0,0
+1979,48,F,Telecom,0,0,0,0
+1980,36,F,Technology,0,0,0,0
+1981,46,F,Retail,1,1,1,1
+1982,42,F,Software Industry,0,0,0,0
+1983,45,F,Consulting,0,1,1,1
+1984,39,F,BFSI,0,0,0,0
+1985,54,F,Telecom,1,0,0,1
+1986,41,F,Manufacturing,1,0,1,1
+1987,44,F,Software Industry,0,0,0,0
+1988,48,F,Manufacturing,1,0,0,1
+1989,46,F,Technology,1,1,1,1
+1990,43,F,BFSI,0,1,0,1
+1991,47,F,Health,0,0,0,0
+1992,41,F,BFSI,0,0,0,0
+1993,37,F,Manufacturing,0,1,0,0
+1994,73,F,Education,0,0,0,0
+1995,56,F,Education,0,0,0,0
+1996,41,F,Education,1,0,0,1
+1997,47,F,Consulting,0,0,0,0
+1998,43,F,Technology,0,0,0,0
+1999,41,F,Technology,0,0,0,0
+2000,40,F,Software Industry,0,0,0,0
